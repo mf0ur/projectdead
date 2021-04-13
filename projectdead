@@ -1,0 +1,1328 @@
+--PD V2
+
+--so good
+
+
+local ScreenGui = Instance.new("ScreenGui")
+local ututut = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local Frame = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+local TextButton_2 = Instance.new("TextButton")
+local TextButton_3 = Instance.new("TextButton")
+local TextButton_4 = Instance.new("TextButton")
+local TextButton_5 = Instance.new("TextButton")
+local maaa = Instance.new("ScrollingFrame")
+local UICorner_3 = Instance.new("UICorner")
+local infammo = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local Zombieesp = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local OpGun = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local Heads = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local Power = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local AnnoyPlayers = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local ererer = Instance.new("ScrollingFrame")
+local PowerRoom = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local Spawn = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local Library = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local Lobby = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local BarrierBack1 = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local BarrierBack2 = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local BarrierBack3 = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local BarrierBack4 = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local Bathroom = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
+local CenterYard = Instance.new("TextButton")
+local UICorner_19 = Instance.new("UICorner")
+local BuildingTop = Instance.new("TextButton")
+local UICorner_20 = Instance.new("UICorner")
+local BackYard = Instance.new("TextButton")
+local UICorner_21 = Instance.new("UICorner")
+local tyty = Instance.new("ScrollingFrame")
+local UICorner_22 = Instance.new("UICorner")
+local SpawnNew = Instance.new("TextButton")
+local UICorner_23 = Instance.new("UICorner")
+local Meeting = Instance.new("TextButton")
+local UICorner_24 = Instance.new("UICorner")
+local LobbyNew = Instance.new("TextButton")
+local UICorner_25 = Instance.new("UICorner")
+local LobbyNew2 = Instance.new("TextButton")
+local UICorner_26 = Instance.new("UICorner")
+local Vault = Instance.new("TextButton")
+local UICorner_27 = Instance.new("UICorner")
+local BuildingArea = Instance.new("TextButton")
+local UICorner_28 = Instance.new("UICorner")
+local look = Instance.new("ScrollingFrame")
+local UICorner_29 = Instance.new("UICorner")
+local Juggernog = Instance.new("TextButton")
+local UICorner_30 = Instance.new("UICorner")
+local QuickRevive = Instance.new("TextButton")
+local UICorner_31 = Instance.new("UICorner")
+local DoubleTap = Instance.new("TextButton")
+local UICorner_32 = Instance.new("UICorner")
+local SpeedCola = Instance.new("TextButton")
+local UICorner_33 = Instance.new("UICorner")
+local pap = Instance.new("TextButton")
+local UICorner_34 = Instance.new("UICorner")
+local MuleKick = Instance.new("TextButton")
+local UICorner_35 = Instance.new("UICorner")
+local ghgh = Instance.new("ScrollingFrame")
+local UICorner_36 = Instance.new("UICorner")
+local Walkspeed = Instance.new("TextButton")
+local UICorner_37 = Instance.new("UICorner")
+local GotoPlayer = Instance.new("TextButton")
+local UICorner_38 = Instance.new("UICorner")
+local InputBox = Instance.new("TextBox")
+local UICorner_39 = Instance.new("UICorner")
+local GotoMB = Instance.new("TextButton")
+local UICorner_40 = Instance.new("UICorner")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+ututut.Name = "ututut"
+ututut.Parent = ScreenGui
+ututut.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+ututut.Position = UDim2.new(0.571106136, 0, 0.138349503, 0)
+ututut.Size = UDim2.new(0, 479, 0, 324)
+
+UICorner.Parent = ututut
+
+Frame.Parent = ututut
+Frame.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+Frame.Size = UDim2.new(0, 122, 0, 324)
+
+UICorner_2.Parent = Frame
+
+TextLabel.Parent = ututut
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Size = UDim2.new(0, 122, 0, 35)
+TextLabel.Font = Enum.Font.Oswald
+TextLabel.Text = "Project Dead V2"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 23.000
+
+TextButton.Parent = ututut
+TextButton.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+TextButton.BorderSizePixel = 0
+TextButton.Position = UDim2.new(0, 0, 0.194444448, 0)
+TextButton.Size = UDim2.new(0, 122, 0, 37)
+TextButton.Font = Enum.Font.Oswald
+TextButton.Text = "Main"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextSize = 23.000
+
+TextButton_2.Parent = ututut
+TextButton_2.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+TextButton_2.BorderSizePixel = 0
+TextButton_2.Position = UDim2.new(0, 0, 0.308642, 0)
+TextButton_2.Size = UDim2.new(0, 122, 0, 37)
+TextButton_2.Font = Enum.Font.Oswald
+TextButton_2.Text = "Teleports"
+TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.TextSize = 23.000
+
+TextButton_3.Parent = ututut
+TextButton_3.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+TextButton_3.BorderSizePixel = 0
+TextButton_3.Position = UDim2.new(0, 0, 0.422839522, 0)
+TextButton_3.Size = UDim2.new(0, 122, 0, 37)
+TextButton_3.Font = Enum.Font.Oswald
+TextButton_3.Text = "Teleports (new map)"
+TextButton_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.TextSize = 23.000
+
+TextButton_4.Parent = ututut
+TextButton_4.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+TextButton_4.BorderSizePixel = 0
+TextButton_4.Position = UDim2.new(0, 0, 0.537037075, 0)
+TextButton_4.Size = UDim2.new(0, 122, 0, 37)
+TextButton_4.Font = Enum.Font.Oswald
+TextButton_4.Text = "Power-ups"
+TextButton_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_4.TextSize = 23.000
+
+TextButton_5.Parent = ututut
+TextButton_5.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+TextButton_5.BorderSizePixel = 0
+TextButton_5.Position = UDim2.new(0, 0, 0.651234627, 0)
+TextButton_5.Size = UDim2.new(0, 122, 0, 37)
+TextButton_5.Font = Enum.Font.Oswald
+TextButton_5.Text = "Misc"
+TextButton_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_5.TextSize = 23.000
+
+maaa.Name = "maaa"
+maaa.Parent = ututut
+maaa.Active = true
+maaa.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+maaa.BorderColor3 = Color3.fromRGB(20, 20, 20)
+maaa.Position = UDim2.new(0.254697204, 0, 0.00617283955, 0)
+maaa.Size = UDim2.new(0, 357, 0, 320)
+maaa.ScrollBarThickness = 9
+
+UICorner_3.Parent = maaa
+
+infammo.Name = "infammo"
+infammo.Parent = maaa
+infammo.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+infammo.Position = UDim2.new(0.0336134471, 0, 0.054012347, 0)
+infammo.Size = UDim2.new(0, 135, 0, 28)
+infammo.Font = Enum.Font.Oswald
+infammo.Text = "Inf Ammo"
+infammo.TextColor3 = Color3.fromRGB(255, 255, 255)
+infammo.TextSize = 23.000
+
+UICorner_4.Parent = infammo
+
+Zombieesp.Name = "Zombieesp"
+Zombieesp.Parent = maaa
+Zombieesp.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+Zombieesp.Position = UDim2.new(0.554621875, 0, 0.054012347, 0)
+Zombieesp.Size = UDim2.new(0, 135, 0, 28)
+Zombieesp.Font = Enum.Font.Oswald
+Zombieesp.Text = "Zombie Esp"
+Zombieesp.TextColor3 = Color3.fromRGB(255, 255, 255)
+Zombieesp.TextSize = 23.000
+
+UICorner_5.Parent = Zombieesp
+
+OpGun.Name = "OpGun"
+OpGun.Parent = maaa
+OpGun.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+OpGun.Position = UDim2.new(0.0336134471, 0, 0.186728388, 0)
+OpGun.Size = UDim2.new(0, 135, 0, 28)
+OpGun.Font = Enum.Font.Oswald
+OpGun.Text = "OP Guns"
+OpGun.TextColor3 = Color3.fromRGB(255, 255, 255)
+OpGun.TextSize = 23.000
+
+UICorner_6.Parent = OpGun
+
+Heads.Name = "Heads"
+Heads.Parent = maaa
+Heads.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+Heads.Position = UDim2.new(0.554621875, 0, 0.186728388, 0)
+Heads.Size = UDim2.new(0, 135, 0, 28)
+Heads.Font = Enum.Font.Oswald
+Heads.Text = "Bring Heads"
+Heads.TextColor3 = Color3.fromRGB(255, 255, 255)
+Heads.TextSize = 23.000
+
+UICorner_7.Parent = Heads
+
+Power.Name = "Power"
+Power.Parent = maaa
+Power.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+Power.Position = UDim2.new(0.0336134471, 0, 0.316358, 0)
+Power.Size = UDim2.new(0, 135, 0, 28)
+Power.Font = Enum.Font.Oswald
+Power.Text = "Power"
+Power.TextColor3 = Color3.fromRGB(255, 255, 255)
+Power.TextSize = 23.000
+
+UICorner_8.Parent = Power
+
+AnnoyPlayers.Name = "AnnoyPlayers"
+AnnoyPlayers.Parent = maaa
+AnnoyPlayers.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+AnnoyPlayers.Position = UDim2.new(0.554621875, 0, 0.31635803, 0)
+AnnoyPlayers.Size = UDim2.new(0, 135, 0, 28)
+AnnoyPlayers.Font = Enum.Font.Oswald
+AnnoyPlayers.Text = "Annoy Players"
+AnnoyPlayers.TextColor3 = Color3.fromRGB(255, 255, 255)
+AnnoyPlayers.TextSize = 23.000
+
+UICorner_9.Parent = AnnoyPlayers
+
+ererer.Name = "ererer"
+ererer.Parent = ututut
+ererer.Active = true
+ererer.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+ererer.BorderColor3 = Color3.fromRGB(20, 20, 20)
+ererer.BorderSizePixel = 0
+ererer.Position = UDim2.new(0.254697293, 0, 0.00925935339, 0)
+ererer.Size = UDim2.new(0, 357, 0, 319)
+ererer.Visible = false
+ererer.ScrollBarThickness = 9
+
+PowerRoom.Name = "PowerRoom"
+PowerRoom.Parent = ererer
+PowerRoom.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+PowerRoom.Position = UDim2.new(0.0336134434, 0, 0.0490435734, 0)
+PowerRoom.Size = UDim2.new(0, 135, 0, 28)
+PowerRoom.Font = Enum.Font.Oswald
+PowerRoom.Text = "Power Room"
+PowerRoom.TextColor3 = Color3.fromRGB(255, 255, 255)
+PowerRoom.TextSize = 23.000
+
+UICorner_10.Parent = PowerRoom
+
+Spawn.Name = "Spawn"
+Spawn.Parent = ererer
+Spawn.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+Spawn.Position = UDim2.new(0.554621875, 0, 0.0490435734, 0)
+Spawn.Size = UDim2.new(0, 135, 0, 28)
+Spawn.Font = Enum.Font.Oswald
+Spawn.Text = "Spawn"
+Spawn.TextColor3 = Color3.fromRGB(255, 255, 255)
+Spawn.TextSize = 23.000
+
+UICorner_11.Parent = Spawn
+
+Library.Name = "Library"
+Library.Parent = ererer
+Library.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+Library.Position = UDim2.new(0.0336134434, 0, 0.184846058, 0)
+Library.Size = UDim2.new(0, 135, 0, 28)
+Library.Font = Enum.Font.Oswald
+Library.Text = "Library"
+Library.TextColor3 = Color3.fromRGB(255, 255, 255)
+Library.TextSize = 23.000
+
+UICorner_12.Parent = Library
+
+Lobby.Name = "Lobby"
+Lobby.Parent = ererer
+Lobby.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+Lobby.Position = UDim2.new(0.554621875, 0, 0.184846058, 0)
+Lobby.Size = UDim2.new(0, 135, 0, 28)
+Lobby.Font = Enum.Font.Oswald
+Lobby.Text = "Lobby"
+Lobby.TextColor3 = Color3.fromRGB(255, 255, 255)
+Lobby.TextSize = 23.000
+
+UICorner_13.Parent = Lobby
+
+BarrierBack1.Name = "BarrierBack1"
+BarrierBack1.Parent = ererer
+BarrierBack1.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+BarrierBack1.Position = UDim2.new(0.0336134434, 0, 0.314475685, 0)
+BarrierBack1.Size = UDim2.new(0, 135, 0, 28)
+BarrierBack1.Font = Enum.Font.Oswald
+BarrierBack1.Text = "Barrier Back 1"
+BarrierBack1.TextColor3 = Color3.fromRGB(255, 255, 255)
+BarrierBack1.TextSize = 23.000
+
+UICorner_14.Parent = BarrierBack1
+
+BarrierBack2.Name = "BarrierBack2"
+BarrierBack2.Parent = ererer
+BarrierBack2.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+BarrierBack2.Position = UDim2.new(0.554621875, 0, 0.314475685, 0)
+BarrierBack2.Size = UDim2.new(0, 135, 0, 28)
+BarrierBack2.Font = Enum.Font.Oswald
+BarrierBack2.Text = "Barrier Back 2"
+BarrierBack2.TextColor3 = Color3.fromRGB(255, 255, 255)
+BarrierBack2.TextSize = 23.000
+
+UICorner_15.Parent = BarrierBack2
+
+BarrierBack3.Name = "BarrierBack3"
+BarrierBack3.Parent = ererer
+BarrierBack3.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+BarrierBack3.Position = UDim2.new(0.0336134434, 0, 0.447191715, 0)
+BarrierBack3.Size = UDim2.new(0, 135, 0, 28)
+BarrierBack3.Font = Enum.Font.Oswald
+BarrierBack3.Text = "Barrier Back 3"
+BarrierBack3.TextColor3 = Color3.fromRGB(255, 255, 255)
+BarrierBack3.TextSize = 23.000
+
+UICorner_16.Parent = BarrierBack3
+
+BarrierBack4.Name = "BarrierBack4"
+BarrierBack4.Parent = ererer
+BarrierBack4.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+BarrierBack4.Position = UDim2.new(0.554621875, 0, 0.447191715, 0)
+BarrierBack4.Size = UDim2.new(0, 135, 0, 28)
+BarrierBack4.Font = Enum.Font.Oswald
+BarrierBack4.Text = "Barrier Back 4"
+BarrierBack4.TextColor3 = Color3.fromRGB(255, 255, 255)
+BarrierBack4.TextSize = 23.000
+
+UICorner_17.Parent = BarrierBack4
+
+Bathroom.Name = "Bathroom"
+Bathroom.Parent = ererer
+Bathroom.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+Bathroom.Position = UDim2.new(0.0336134434, 0, 0.576821327, 0)
+Bathroom.Size = UDim2.new(0, 135, 0, 28)
+Bathroom.Font = Enum.Font.Oswald
+Bathroom.Text = "Bathroom"
+Bathroom.TextColor3 = Color3.fromRGB(255, 255, 255)
+Bathroom.TextSize = 23.000
+
+UICorner_18.Parent = Bathroom
+
+CenterYard.Name = "CenterYard"
+CenterYard.Parent = ererer
+CenterYard.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+CenterYard.Position = UDim2.new(0.554621875, 0, 0.576821327, 0)
+CenterYard.Size = UDim2.new(0, 135, 0, 28)
+CenterYard.Font = Enum.Font.Oswald
+CenterYard.Text = "Bathroom"
+CenterYard.TextColor3 = Color3.fromRGB(255, 255, 255)
+CenterYard.TextSize = 23.000
+
+UICorner_19.Parent = CenterYard
+
+BuildingTop.Name = "BuildingTop"
+BuildingTop.Parent = ererer
+BuildingTop.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+BuildingTop.Position = UDim2.new(0.0336134434, 0, 0.704907715, 0)
+BuildingTop.Size = UDim2.new(0, 135, 0, 28)
+BuildingTop.Font = Enum.Font.Oswald
+BuildingTop.Text = "Building Top"
+BuildingTop.TextColor3 = Color3.fromRGB(255, 255, 255)
+BuildingTop.TextSize = 23.000
+
+UICorner_20.Parent = BuildingTop
+
+BackYard.Name = "BackYard"
+BackYard.Parent = ererer
+BackYard.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+BackYard.Position = UDim2.new(0.554621875, 0, 0.704907715, 0)
+BackYard.Size = UDim2.new(0, 135, 0, 28)
+BackYard.Font = Enum.Font.Oswald
+BackYard.Text = "Backyard"
+BackYard.TextColor3 = Color3.fromRGB(255, 255, 255)
+BackYard.TextSize = 23.000
+
+UICorner_21.Parent = BackYard
+
+tyty.Name = "tyty"
+tyty.Parent = ututut
+tyty.Active = true
+tyty.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+tyty.BorderColor3 = Color3.fromRGB(20, 20, 20)
+tyty.Position = UDim2.new(0.254697293, 0, 0.00617283955, 0)
+tyty.Size = UDim2.new(0, 357, 0, 320)
+tyty.Visible = false
+tyty.ScrollBarThickness = 9
+
+UICorner_22.Parent = tyty
+
+SpawnNew.Name = "SpawnNew"
+SpawnNew.Parent = tyty
+SpawnNew.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+SpawnNew.Position = UDim2.new(0.0336134434, 0, 0.0507330261, 0)
+SpawnNew.Size = UDim2.new(0, 135, 0, 28)
+SpawnNew.Font = Enum.Font.Oswald
+SpawnNew.Text = "Spawn"
+SpawnNew.TextColor3 = Color3.fromRGB(255, 255, 255)
+SpawnNew.TextSize = 23.000
+
+UICorner_23.Parent = SpawnNew
+
+Meeting.Name = "Meeting"
+Meeting.Parent = tyty
+Meeting.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+Meeting.Position = UDim2.new(0.554621875, 0, 0.0538194478, 0)
+Meeting.Size = UDim2.new(0, 135, 0, 28)
+Meeting.Font = Enum.Font.Oswald
+Meeting.Text = "Meeting Area"
+Meeting.TextColor3 = Color3.fromRGB(255, 255, 255)
+Meeting.TextSize = 23.000
+
+UICorner_24.Parent = Meeting
+
+LobbyNew.Name = "LobbyNew"
+LobbyNew.Parent = tyty
+LobbyNew.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+LobbyNew.Position = UDim2.new(0.0336134434, 0, 0.186535493, 0)
+LobbyNew.Size = UDim2.new(0, 135, 0, 28)
+LobbyNew.Font = Enum.Font.Oswald
+LobbyNew.Text = "Lobby"
+LobbyNew.TextColor3 = Color3.fromRGB(255, 255, 255)
+LobbyNew.TextSize = 23.000
+
+UICorner_25.Parent = LobbyNew
+
+LobbyNew2.Name = "LobbyNew2"
+LobbyNew2.Parent = tyty
+LobbyNew2.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+LobbyNew2.Position = UDim2.new(0.554621875, 0, 0.186535493, 0)
+LobbyNew2.Size = UDim2.new(0, 135, 0, 28)
+LobbyNew2.Font = Enum.Font.Oswald
+LobbyNew2.Text = "Lobby 2"
+LobbyNew2.TextColor3 = Color3.fromRGB(255, 255, 255)
+LobbyNew2.TextSize = 23.000
+
+UICorner_26.Parent = LobbyNew2
+
+Vault.Name = "Vault"
+Vault.Parent = tyty
+Vault.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+Vault.Position = UDim2.new(0.0336134434, 0, 0.316165119, 0)
+Vault.Size = UDim2.new(0, 135, 0, 28)
+Vault.Font = Enum.Font.Oswald
+Vault.Text = "Vault Walkthrough"
+Vault.TextColor3 = Color3.fromRGB(255, 255, 255)
+Vault.TextSize = 23.000
+
+UICorner_27.Parent = Vault
+
+BuildingArea.Name = "BuildingArea"
+BuildingArea.Parent = tyty
+BuildingArea.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+BuildingArea.Position = UDim2.new(0.554621875, 0, 0.316165119, 0)
+BuildingArea.Size = UDim2.new(0, 135, 0, 28)
+BuildingArea.Font = Enum.Font.Oswald
+BuildingArea.Text = "Building Area"
+BuildingArea.TextColor3 = Color3.fromRGB(255, 255, 255)
+BuildingArea.TextSize = 23.000
+
+UICorner_28.Parent = BuildingArea
+
+look.Name = "look"
+look.Parent = ututut
+look.Active = true
+look.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+look.BorderColor3 = Color3.fromRGB(20, 20, 20)
+look.Position = UDim2.new(0.254697293, 0, 0.00617283955, 0)
+look.Size = UDim2.new(0, 357, 0, 320)
+look.Visible = false
+look.ScrollBarThickness = 9
+
+UICorner_29.Parent = look
+
+Juggernog.Name = "Juggernog"
+Juggernog.Parent = look
+Juggernog.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+Juggernog.Position = UDim2.new(0.0336134434, 0, 0.0533179045, 0)
+Juggernog.Size = UDim2.new(0, 138, 0, 28)
+Juggernog.Font = Enum.Font.Oswald
+Juggernog.Text = "Juggernog"
+Juggernog.TextColor3 = Color3.fromRGB(255, 255, 255)
+Juggernog.TextSize = 23.000
+
+UICorner_30.Parent = Juggernog
+
+QuickRevive.Name = "QuickRevive"
+QuickRevive.Parent = look
+QuickRevive.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+QuickRevive.Position = UDim2.new(0.546218514, 0, 0.0533179045, 0)
+QuickRevive.Size = UDim2.new(0, 138, 0, 28)
+QuickRevive.Font = Enum.Font.Oswald
+QuickRevive.Text = "Quick Revive"
+QuickRevive.TextColor3 = Color3.fromRGB(255, 255, 255)
+QuickRevive.TextSize = 23.000
+
+UICorner_31.Parent = QuickRevive
+
+DoubleTap.Name = "DoubleTap"
+DoubleTap.Parent = look
+DoubleTap.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+DoubleTap.Position = UDim2.new(0.0336134434, 0, 0.186033949, 0)
+DoubleTap.Size = UDim2.new(0, 138, 0, 28)
+DoubleTap.Font = Enum.Font.Oswald
+DoubleTap.Text = "Double Tap"
+DoubleTap.TextColor3 = Color3.fromRGB(255, 255, 255)
+DoubleTap.TextSize = 23.000
+
+UICorner_32.Parent = DoubleTap
+
+SpeedCola.Name = "SpeedCola"
+SpeedCola.Parent = look
+SpeedCola.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+SpeedCola.Position = UDim2.new(0.549019635, 0, 0.186033949, 0)
+SpeedCola.Size = UDim2.new(0, 138, 0, 28)
+SpeedCola.Font = Enum.Font.Oswald
+SpeedCola.Text = "Speed Cola"
+SpeedCola.TextColor3 = Color3.fromRGB(255, 255, 255)
+SpeedCola.TextSize = 23.000
+
+UICorner_33.Parent = SpeedCola
+
+pap.Name = "pap"
+pap.Parent = look
+pap.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+pap.Position = UDim2.new(0.0336134434, 0, 0.315663576, 0)
+pap.Size = UDim2.new(0, 138, 0, 28)
+pap.Font = Enum.Font.Oswald
+pap.Text = "PAP Weapon"
+pap.TextColor3 = Color3.fromRGB(255, 255, 255)
+pap.TextSize = 23.000
+
+UICorner_34.Parent = pap
+
+MuleKick.Name = "MuleKick"
+MuleKick.Parent = look
+MuleKick.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+MuleKick.Position = UDim2.new(0.546218514, 0, 0.315663576, 0)
+MuleKick.Size = UDim2.new(0, 138, 0, 28)
+MuleKick.Font = Enum.Font.Oswald
+MuleKick.Text = "Mule Kick"
+MuleKick.TextColor3 = Color3.fromRGB(255, 255, 255)
+MuleKick.TextSize = 23.000
+
+UICorner_35.Parent = MuleKick
+
+ghgh.Name = "ghgh"
+ghgh.Parent = ututut
+ghgh.Active = true
+ghgh.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+ghgh.BorderColor3 = Color3.fromRGB(20, 20, 20)
+ghgh.Position = UDim2.new(0.254697293, 0, 0.00617283955, 0)
+ghgh.Size = UDim2.new(0, 357, 0, 320)
+ghgh.Visible = false
+ghgh.CanvasPosition = Vector2.new(0, 2.0250001)
+ghgh.ScrollBarThickness = 9
+
+UICorner_36.Parent = ghgh
+
+Walkspeed.Name = "Walkspeed"
+Walkspeed.Parent = ghgh
+Walkspeed.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+Walkspeed.Position = UDim2.new(0.0336134583, 0, 0.184015378, 0)
+Walkspeed.Size = UDim2.new(0, 138, 0, 29)
+Walkspeed.Font = Enum.Font.Oswald
+Walkspeed.Text = "Walkspeed"
+Walkspeed.TextColor3 = Color3.fromRGB(255, 255, 255)
+Walkspeed.TextSize = 23.000
+Walkspeed.TextWrapped = true
+
+UICorner_37.Parent = Walkspeed
+
+GotoPlayer.Name = "GotoPlayer"
+GotoPlayer.Parent = ghgh
+GotoPlayer.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+GotoPlayer.Position = UDim2.new(0.546218514, 0, 0.184015378, 0)
+GotoPlayer.Size = UDim2.new(0, 138, 0, 29)
+GotoPlayer.Font = Enum.Font.Oswald
+GotoPlayer.Text = "Goto Player"
+GotoPlayer.TextColor3 = Color3.fromRGB(255, 255, 255)
+GotoPlayer.TextSize = 23.000
+GotoPlayer.TextWrapped = true
+
+UICorner_38.Parent = GotoPlayer
+
+InputBox.Name = "InputBox"
+InputBox.Parent = ghgh
+InputBox.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+InputBox.Position = UDim2.new(0.0336134471, 0, 0.0494058877, 0)
+InputBox.Size = UDim2.new(0, 321, 0, 37)
+InputBox.Font = Enum.Font.Oswald
+InputBox.Text = "Type the players name / what walkspeed you want"
+InputBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+InputBox.TextSize = 23.000
+
+UICorner_39.Parent = InputBox
+
+GotoMB.Name = "GotoMB"
+GotoMB.Parent = ghgh
+GotoMB.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+GotoMB.Position = UDim2.new(0.288515449, 0, 0.302842528, 0)
+GotoMB.Size = UDim2.new(0, 138, 0, 29)
+GotoMB.Font = Enum.Font.Oswald
+GotoMB.Text = "Goto Mysterybox"
+GotoMB.TextColor3 = Color3.fromRGB(255, 255, 255)
+GotoMB.TextSize = 23.000
+GotoMB.TextWrapped = true
+
+UICorner_40.Parent = GotoMB
+
+--ProjectDeadV2 on top ogoogogogogogogogogogogogogogogogogogoog
+
+ututut.Active = true
+ererer.Active = true
+ghgh.Active = true
+look.Active = true
+maaa.Active = true
+tyty.Active = true
+
+infammo.MouseButton1Click:Connect(function()
+	for _,v in pairs(debug.getregistry()) do
+		if typeof(v) == "table" then
+			if v.Ammo then
+				v.Ammo = math.huge
+			end
+		end
+	end
+	ConsoleLabel.Text = "Set ammo to infinite"
+	ConsoleInfoLabel.Text = "This works for every weapon"
+end)
+
+Zombieesp.MouseButton1Down:connect(function()
+	function CreateESPPart(BodyPart,color)
+		local ESPPartparent = BodyPart
+		local Box = Instance.new("BoxHandleAdornment")
+		Box.Size = BodyPart.Size + Vector3.new(0.1, 0.1, 0.1)
+		Box.Name = "ESPPart"
+		Box.Adornee = ESPPartparent
+		Box.Color3 = color
+		Box.AlwaysOnTop = true
+		Box.ZIndex = 5
+		Box.Transparency = 0.8
+		Box.Parent = BodyPart
+	end
+
+	local zombs = workspace.Baddies:getChildren()
+	for i=1,#zombs do
+		local bodypart = zombs[i]:getChildren()
+		for i=1,#bodypart do
+			if bodypart[i].ClassName == "Part" then
+				CreateESPPart(bodypart[i], Color3.fromRGB(0,255,0))
+			end
+		end
+	end
+
+	workspace.Baddies.ChildAdded:Connect(function(zomb)
+		wait(1)
+		local bodypart = zomb:getChildren()
+		for i=1,#bodypart do
+			if bodypart[i].ClassName == "Part" then
+				CreateESPPart(bodypart[i], Color3.fromRGB(0,255,0))
+			end
+		end
+	end)
+end)
+
+OpGun.MouseButton1Down:connect(function()
+	local m = require(game:GetService("Players").LocalPlayer.Backpack:FindFirstChild("Weapon1"))
+	m.StoredAmmo = math.huge
+	m.MagSize = math.huge
+	m.Semi = false
+	m.Damage = {Max = 1500000, Min = 10000}
+	m.Spread = {Min = 0, Max = 0}
+	m.ViewKick = {
+		Pitch = {Min = 0, Max = 0},
+		Yaw = {Min = 0, Max = 0}
+	}
+	m.BulletPenetration = 1500
+	m.FireTime = 0
+
+	local n = require(game:GetService("Players").LocalPlayer.Backpack:FindFirstChild("Weapon2"))
+	n.StoredAmmo = math.huge
+	n.MagSize = math.huge
+	n.Semi = false
+	n.Damage = {Max = 1500000, Min = 10000}
+	n.Spread = {Min = 0, Max = 0}
+	n.ViewKick = {
+		Pitch = {Min = 0, Max = 0},
+		Yaw = {Min = 0, Max = 0}
+	}
+	n.BulletPenetration = 1500
+	n.FireTime = 0
+end)
+
+Heads.MouseButton1Down:connect(function()
+	local pos = 5,0,5
+
+	local zomb = workspace.Baddies:GetChildren()
+	for i=1,#zomb do
+		zomb[i].HeadBox.Transparency = 0
+		zomb[i].HeadBox.Material = "Neon"
+		zomb[i].HeadBox.CanCollide = false
+		zomb[i].HeadBox.Anchored = true
+		zomb[i].HeadBox.Position = game.Players.LocalPlayer.Character.HumanoidRootPart.Position+Vector3.new(pos)
+	end
+end)
+
+BarrierBack1.MouseButton1Click:Connect(function()
+	game.Players.LocalPlayer.Character:MoveTo(Vector3.new(38.7996941, 20.2000065, 64.9929962))
+	ConsoleLabel.Text = "Teleported behind barrier 1"
+	ConsoleInfoLabel.Text = ""
+end)
+
+BarrierBack2.MouseButton1Click:Connect(function()
+	game.Players.LocalPlayer.Character:MoveTo(Vector3.new(39.9715347, 20.200016, -32.2160835))
+	ConsoleLabel.Text = "Teleported behind barrier 2"
+	ConsoleInfoLabel.Text = ""
+end)
+
+BarrierBack3.MouseButton1Click:Connect(function()
+	game.Players.LocalPlayer.Character:MoveTo(Vector3.new(75.7908325, 3.20002508, -29.1730213))
+	ConsoleLabel.Text = "Teleported behind barrier 3"
+	ConsoleInfoLabel.Text = ""
+end)
+
+BarrierBack4.MouseButton1Click:Connect(function()
+	game.Players.LocalPlayer.Character:MoveTo(Vector3.new(74.7251892, 20.9555206, 103.646507))
+	ConsoleLabel.Text = "Teleported behind barrier 4"
+	ConsoleInfoLabel.Text = ""
+end)
+
+Library.MouseButton1Click:Connect(function()
+	game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-66.9610825, 20.1990089, 2.16642976))
+	ConsoleLabel.Text = "Teleported to library"
+	ConsoleInfoLabel.Text = ""
+end)
+
+Bathroom.MouseButton1Click:Connect(function()
+	game.Players.LocalPlayer.Character:MoveTo(Vector3.new(63.4641228, 20.2000504, 78.6364136))
+	ConsoleLabel.Text = "Teleported to Bathroom"
+	ConsoleInfoLabel.Text = ""
+end)
+
+Lobby.MouseButton1Click:Connect(function()
+	game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-10.6820145, -494.5, -2.53165269))
+	ConsoleLabel.Text = "Teleported to Lobby"
+	ConsoleInfoLabel.Text = ""
+end)
+
+BackYard.MouseButton1Click:Connect(function()
+	game.Players.LocalPlayer.Character:MoveTo(Vector3.new(8.4164629, 3.20000005, -115.536255))
+	ConsoleLabel.Text = "Teleported to the back yard"
+	ConsoleInfoLabel.Text = ""
+end)
+
+Spawn.MouseButton1Click:Connect(function()
+	game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-16.4724731, 3.20000005, -18.6810131))
+	ConsoleLabel.Text = "Teleported to spawn"
+	ConsoleInfoLabel.Text = ""
+end)
+
+PowerRoom.MouseButton1Click:Connect(function()
+	game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-3.92677093, 20.1999989, 91.4792633))
+	ConsoleLabel.Text = "Teleported to the power room"
+	ConsoleInfoLabel.Text = ""
+end)
+
+CenterYard.MouseButton1Click:Connect(function()
+	game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-0.663911641, 3.79999971, 41.9799118))
+	ConsoleLabel.Text = "Teleported to the center yard"
+	ConsoleInfoLabel.Text = ""
+end)
+
+BuildingTop.MouseButton1Click:Connect(function()
+	game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-3.20340729, 47.1415977, 4.63647652))
+	ConsoleLabel.Text = "Teleported to the building top"
+	ConsoleInfoLabel.Text = ""
+end)
+
+AnnoyPlayers.MouseButton1Click:Connect(function()
+	while true do
+		wait()
+		local remote = game["Workspace"]["Name"]["ServerScript"]["WeaponSound"]
+		local args = {
+			[1] = "Fire"
+		}
+		remote:FireServer(unpack(args))
+	end
+	ConsoleLabel.Text = "Enabled annoy players"
+	ConsoleInfoLabel.Text = "You can't hear this, but others can"
+end)
+
+Power.MouseButton1Click:Connect(function()
+	workspace.Interact.PowerSwitch.Activate:FireServer(workspace[LocalNameBox.Text].Interact.OnKeyUp, 14)
+	ConsoleLabel.Text = "Turned on power"
+	ConsoleInfoLabel.Text = "You can now use power-ups"
+end)
+
+Juggernog.MouseButton1Click:Connect(function()
+	local Jugger = game.Workspace.Interact.Juggernog['Activate']	
+	local JugArguments = {
+
+	}	
+	Jugger:FireServer(unpack(JugArguments))
+	ConsoleLabel.Text = "Bought Juggernog"
+	ConsoleInfoLabel.Text = ""
+end)
+
+QuickRevive.MouseButton1Click:Connect(function()
+	local Quickie = game.Workspace.Interact:FindFirstChild 'Quick Revive'['Activate']
+	local QuArguments = {
+
+	}
+	Quickie:FireServer(unpack(QuArguments))
+	ConsoleLabel.Text = "Bought Quick Revive"
+	ConsoleInfoLabel.Text = ""
+end)
+
+DoubleTap.MouseButton1Click:Connect(function()
+	local Dtap = game.Workspace.Interact:FindFirstChild 'Double Tap Root Beer'['Activate']
+	local DtArguments = {
+
+	}
+	Dtap:FireServer(unpack(DtArguments))
+	ConsoleLabel.Text = "Bought Double Tap Root Beer"
+	ConsoleInfoLabel.Text = ""
+end)
+
+SpeedCola.MouseButton1Click:Connect(function()
+	local Speedc = game.Workspace.Interact:FindFirstChild 'Speed Cola'['Activate']
+	local SpArguments = {
+
+	}
+	Speedc:FireServer(unpack(SpArguments))
+	ConsoleLabel.Text = "Bought Speed Cola"
+	ConsoleInfoLabel.Text = ""
+end)
+
+MuleKick.MouseButton1Click:Connect(function()
+	local Mulek = game.Workspace.Interact:FindFirstChild 'Mule Kick'['Activate']
+	local MuArguments = {
+
+	}
+	Mulek:FireServer(unpack(MuArguments))
+	ConsoleLabel.Text = "Bought Mule Kick"
+	ConsoleInfoLabel.Text = ""
+end)
+
+BuildingArea.MouseButton1Click:Connect(function()
+	game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-2.12, -10.499, -386.54))
+	ConsoleLabel.Text = "Teleported to the building area"
+	ConsoleInfoLabel.Text = ""
+end)
+
+LobbyNew.MouseButton1Click:Connect(function()
+	game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-12.4801102, 3.5, 42.7415619))
+	ConsoleLabel.Text = "Teleported to the the new lobby"
+	ConsoleInfoLabel.Text = ""
+end)
+
+LobbyNew2.MouseButton1Click:Connect(function()
+	game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-2.6, 1.899, -155.115))
+	ConsoleLabel.Text = "Teleported to the the new lobby part 2"
+	ConsoleInfoLabel.Text = ""
+end)
+
+Meeting.MouseButton1Click:Connect(function()
+	game.Players.LocalPlayer.Character:MoveTo(Vector3.new(12.86, 17.499, -21.05))
+	ConsoleLabel.Text = "Teleported to the meeting area"
+	ConsoleInfoLabel.Text = ""
+end)
+
+SpawnNew.MouseButton1Click:Connect(function()
+	game.Players.LocalPlayer.Character:MoveTo(Vector3.new(8.6, 3.5, 19))
+	ConsoleLabel.Text = "Teleported to new spawn"
+	ConsoleInfoLabel.Text = ""
+end)
+
+Vault.MouseButton1Click:Connect(function()
+	game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-0.77, -10.499, -301.517))
+	ConsoleLabel.Text = "Teleported to vault walkthrough area"
+	ConsoleInfoLabel.Text = ""
+end)
+
+Walkspeed.MouseButton1Click:Connect(function()
+	game.Workspace[InputBox.Text].Humanoid.WalkSpeed = (InputBox.Text)
+	ConsoleLabel.Text = "Changed walk speed"
+	ConsoleInfoLabel.Text = ""
+end)
+
+GotoPlayer.MouseButton1Click:Connect(function()
+	getplr = function(plxr)
+		for i, v in pairs(game.Players:GetPlayers()) do
+			if string.find(v.Name, plxr) then
+				return v
+			elseif v.Name:sub(1, plxr:len()):lower()== plxr:lower() then
+				return v
+			end
+		end
+	end
+	local plr = getplr(InputBox.Text)
+	game.Players.LocalPlayer.Character:MoveTo(plr.Character.Torso.Position)
+	ConsoleLabel.Text = "Teleported to player"
+	ConsoleInfoLabel.Text = ""
+end)
+
+pap.MouseButton1Click:Connect(function()
+	local pap = game.Workspace.Interact:FindFirstChild 'Pack-a-Punch'['Activate']
+	local MuArguments = {
+
+	}
+	pap:FireServer(unpack(MuArguments))
+	ConsoleLabel.Text = "Bought Pack a Punch"
+	ConsoleInfoLabel.Text = ""
+end)
+
+GotoMB.MouseButton1Click:Connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = Workspace.Interact.MysteryBox.Base.Part.CFrame
+end)
+
+-- Scripts:
+
+local function ZMOSEK_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Parent.maaa.Visible = not script.Parent.Parent.maaa.Visible
+	end)
+	
+end
+coroutine.wrap(ZMOSEK_fake_script)()
+local function DQVS_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Parent.ererer.Visible = false
+		script.Parent.Parent.tyty.Visible = false
+		script.Parent.Parent.look.Visible = false
+		script.Parent.Parent.ghgh.Visible = false
+	end)
+	
+end
+coroutine.wrap(DQVS_fake_script)()
+local function KCEC_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	local btn = script.Parent
+	
+	local isHovering = false
+	
+	local tweenService = game:GetService("TweenService")
+	local tweenInfo = TweenInfo.new(0.2, Enum.EasingStyle.Quint, Enum.EasingDirection.InOut)
+	
+	local colourDarkTween = tweenService:Create(btn, tweenInfo, {BackgroundColor3 = Color3.fromRGB(177,177,177)})
+	local colourBrightTween = tweenService:Create(btn, tweenInfo, {BackgroundColor3 = Color3.fromRGB(200,200,200)})
+	local colourDefaultTween = tweenService:Create(btn, tweenInfo, {BackgroundColor3 = Color3.fromRGB(30,30,30)})
+	
+	
+	btn.MouseEnter:Connect(function()
+	
+		isHovering = true
+	
+		colourBrightTween:Play()
+	end)
+	
+	btn.MouseLeave:Connect(function()
+	
+		isHovering = false
+	
+		colourDefaultTween:Play()
+	end)
+	
+	btn.MouseButton1Down:Connect(function()
+	
+		colourDarkTween:Play()
+	end)
+	
+	btn.MouseButton1Up:Connect(function()
+	
+		if not isHovering then
+			colourDefaultTween:Play()
+		else
+			colourBrightTween:Play()
+		end
+	end)
+	
+end
+coroutine.wrap(KCEC_fake_script)()
+local function CWSSCC_fake_script() -- TextButton_2.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_2)
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Parent.ererer.Visible = not script.Parent.Parent.ererer.Visible
+	end)
+	
+end
+coroutine.wrap(CWSSCC_fake_script)()
+local function VADGIS_fake_script() -- TextButton_2.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_2)
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Parent.maaa.Visible = false
+		script.Parent.Parent.tyty.Visible = false
+		script.Parent.Parent.look.Visible = false
+		script.Parent.Parent.ghgh.Visible = false
+	end)
+	
+end
+coroutine.wrap(VADGIS_fake_script)()
+local function TVUCXGO_fake_script() -- TextButton_2.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_2)
+
+	local btn = script.Parent
+	
+	local isHovering = false
+	
+	local tweenService = game:GetService("TweenService")
+	local tweenInfo = TweenInfo.new(0.2, Enum.EasingStyle.Quint, Enum.EasingDirection.InOut)
+	
+	local colourDarkTween = tweenService:Create(btn, tweenInfo, {BackgroundColor3 = Color3.fromRGB(177,177,177)})
+	local colourBrightTween = tweenService:Create(btn, tweenInfo, {BackgroundColor3 = Color3.fromRGB(200,200,200)})
+	local colourDefaultTween = tweenService:Create(btn, tweenInfo, {BackgroundColor3 = Color3.fromRGB(30,30,30)})
+	
+	
+	btn.MouseEnter:Connect(function()
+	
+		isHovering = true
+	
+		colourBrightTween:Play()
+	end)
+	
+	btn.MouseLeave:Connect(function()
+	
+		isHovering = false
+	
+		colourDefaultTween:Play()
+	end)
+	
+	btn.MouseButton1Down:Connect(function()
+	
+		colourDarkTween:Play()
+	end)
+	
+	btn.MouseButton1Up:Connect(function()
+	
+		if not isHovering then
+			colourDefaultTween:Play()
+		else
+			colourBrightTween:Play()
+		end
+	end)
+	
+end
+coroutine.wrap(TVUCXGO_fake_script)()
+local function IANRKHY_fake_script() -- TextButton_3.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_3)
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Parent.tyty.Visible = not script.Parent.Parent.tyty.Visible
+	end)
+	
+end
+coroutine.wrap(IANRKHY_fake_script)()
+local function LODKLD_fake_script() -- TextButton_3.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_3)
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Parent.maaa.Visible = false
+		script.Parent.Parent.ererer.Visible = false
+		script.Parent.Parent.look.Visible = false
+		script.Parent.Parent.ghgh.Visible = false
+	end)
+	
+end
+coroutine.wrap(LODKLD_fake_script)()
+local function JIHKT_fake_script() -- TextButton_3.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_3)
+
+	local btn = script.Parent
+	
+	local isHovering = false
+	
+	local tweenService = game:GetService("TweenService")
+	local tweenInfo = TweenInfo.new(0.2, Enum.EasingStyle.Quint, Enum.EasingDirection.InOut)
+	
+	local colourDarkTween = tweenService:Create(btn, tweenInfo, {BackgroundColor3 = Color3.fromRGB(177,177,177)})
+	local colourBrightTween = tweenService:Create(btn, tweenInfo, {BackgroundColor3 = Color3.fromRGB(200,200,200)})
+	local colourDefaultTween = tweenService:Create(btn, tweenInfo, {BackgroundColor3 = Color3.fromRGB(30,30,30)})
+	
+	
+	btn.MouseEnter:Connect(function()
+	
+		isHovering = true
+	
+		colourBrightTween:Play()
+	end)
+	
+	btn.MouseLeave:Connect(function()
+	
+		isHovering = false
+	
+		colourDefaultTween:Play()
+	end)
+	
+	btn.MouseButton1Down:Connect(function()
+	
+		colourDarkTween:Play()
+	end)
+	
+	btn.MouseButton1Up:Connect(function()
+	
+		if not isHovering then
+			colourDefaultTween:Play()
+		else
+			colourBrightTween:Play()
+		end
+	end)
+	
+end
+coroutine.wrap(JIHKT_fake_script)()
+local function KHKFZVG_fake_script() -- TextButton_4.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_4)
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Parent.look.Visible = not script.Parent.Parent.look.Visible
+	end)
+	
+end
+coroutine.wrap(KHKFZVG_fake_script)()
+local function PNNX_fake_script() -- TextButton_4.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_4)
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Parent.maaa.Visible = false
+		script.Parent.Parent.tyty.Visible = false
+		script.Parent.Parent.ererer.Visible = false
+		script.Parent.Parent.ghgh.Visible = false
+	end)
+	
+end
+coroutine.wrap(PNNX_fake_script)()
+local function TIAYQ_fake_script() -- TextButton_4.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_4)
+
+	local btn = script.Parent
+	
+	local isHovering = false
+	
+	local tweenService = game:GetService("TweenService")
+	local tweenInfo = TweenInfo.new(0.2, Enum.EasingStyle.Quint, Enum.EasingDirection.InOut)
+	
+	local colourDarkTween = tweenService:Create(btn, tweenInfo, {BackgroundColor3 = Color3.fromRGB(177,177,177)})
+	local colourBrightTween = tweenService:Create(btn, tweenInfo, {BackgroundColor3 = Color3.fromRGB(200,200,200)})
+	local colourDefaultTween = tweenService:Create(btn, tweenInfo, {BackgroundColor3 = Color3.fromRGB(30,30,30)})
+	
+	
+	btn.MouseEnter:Connect(function()
+	
+		isHovering = true
+	
+		colourBrightTween:Play()
+	end)
+	
+	btn.MouseLeave:Connect(function()
+	
+		isHovering = false
+	
+		colourDefaultTween:Play()
+	end)
+	
+	btn.MouseButton1Down:Connect(function()
+	
+		colourDarkTween:Play()
+	end)
+	
+	btn.MouseButton1Up:Connect(function()
+	
+		if not isHovering then
+			colourDefaultTween:Play()
+		else
+			colourBrightTween:Play()
+		end
+	end)
+	
+end
+coroutine.wrap(TIAYQ_fake_script)()
+local function TNIQURB_fake_script() -- TextButton_5.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_5)
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Parent.ghgh.Visible = not script.Parent.Parent.ghgh.Visible
+	end)
+	
+end
+coroutine.wrap(TNIQURB_fake_script)()
+local function NGTIXN_fake_script() -- TextButton_5.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_5)
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Parent.maaa.Visible = false
+		script.Parent.Parent.ererer.Visible = false
+		script.Parent.Parent.look.Visible = false
+		script.Parent.Parent.tyty.Visible = false
+	end)
+	
+end
+coroutine.wrap(NGTIXN_fake_script)()
+local function ASCMU_fake_script() -- TextButton_5.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_5)
+
+	local btn = script.Parent
+	
+	local isHovering = false
+	
+	local tweenService = game:GetService("TweenService")
+	local tweenInfo = TweenInfo.new(0.2, Enum.EasingStyle.Quint, Enum.EasingDirection.InOut)
+	
+	local colourDarkTween = tweenService:Create(btn, tweenInfo, {BackgroundColor3 = Color3.fromRGB(177,177,177)})
+	local colourBrightTween = tweenService:Create(btn, tweenInfo, {BackgroundColor3 = Color3.fromRGB(200,200,200)})
+	local colourDefaultTween = tweenService:Create(btn, tweenInfo, {BackgroundColor3 = Color3.fromRGB(30,30,30)})
+	
+	
+	btn.MouseEnter:Connect(function()
+	
+		isHovering = true
+	
+		colourBrightTween:Play()
+	end)
+	
+	btn.MouseLeave:Connect(function()
+	
+		isHovering = false
+	
+		colourDefaultTween:Play()
+	end)
+	
+	btn.MouseButton1Down:Connect(function()
+	
+		colourDarkTween:Play()
+	end)
+	
+	btn.MouseButton1Up:Connect(function()
+	
+		if not isHovering then
+			colourDefaultTween:Play()
+		else
+			colourBrightTween:Play()
+		end
+	end)
+	
+end
+coroutine.wrap(ASCMU_fake_script)()
+local function RUUU_fake_script() -- ututut.SmoothDrag 
+	local script = Instance.new('LocalScript', ututut)
+
+	local Drag = script.Parent.Parent.ututut
+	gsCoreGui = game:GetService("CoreGui")
+	gsTween = game:GetService("TweenService")
+	local UserInputService = game:GetService("UserInputService")
+		local dragging
+		local dragInput
+		local dragStart
+		local startPos
+		local function update(input)
+			local delta = input.Position - dragStart
+			local dragTime = 0.04
+			local SmoothDrag = {}
+			SmoothDrag.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+			local dragSmoothFunction = gsTween:Create(Drag, TweenInfo.new(dragTime, Enum.EasingStyle.Sine, Enum.EasingDirection.InOut), SmoothDrag)
+			dragSmoothFunction:Play()
+		end
+		Drag.InputBegan:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+				dragging = true
+				dragStart = input.Position
+				startPos = Drag.Position
+				input.Changed:Connect(function()
+					if input.UserInputState == Enum.UserInputState.End then
+						dragging = false
+					end
+				end)
+			end
+		end)
+		Drag.InputChanged:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+				dragInput = input
+			end
+		end)
+		UserInputService.InputChanged:Connect(function(input)
+			if input == dragInput and dragging and Drag.Size then
+				update(input)
+			end
+		end)
+	
+end
+coroutine.wrap(RUUU_fake_script)()
