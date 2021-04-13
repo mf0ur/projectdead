@@ -1,0 +1,1407 @@
+--uh yea ok
+
+local ScreenGui = Instance.new("ScreenGui")
+local Gradient = Instance.new("ImageLabel")
+local UIGradient = Instance.new("UIGradient")
+local Pattern = Instance.new("ImageLabel")
+local UICorner = Instance.new("UICorner")
+local Title = Instance.new("TextLabel")
+local TextLabel = Instance.new("TextLabel")
+local account_circle = Instance.new("ImageButton")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextBox = Instance.new("TextBox")
+local UICorner_2 = Instance.new("UICorner")
+local Button = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local Button1 = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local Button2 = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local Mini = Instance.new("TextButton")
+local Close = Instance.new("TextButton")
+local idkperm = Instance.new("ScrollingFrame")
+local Title_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local TextLabel_5 = Instance.new("TextLabel")
+local TextLabel_6 = Instance.new("TextLabel")
+local TextLabel_7 = Instance.new("TextLabel")
+local TextLabel_8 = Instance.new("TextLabel")
+local TextLabel_9 = Instance.new("TextLabel")
+local TextLabel_10 = Instance.new("TextLabel")
+local TextLabel_11 = Instance.new("TextLabel")
+local TextLabel_12 = Instance.new("TextLabel")
+local TextLabel_13 = Instance.new("TextLabel")
+local TextLabel_14 = Instance.new("TextLabel")
+local TextLabel_15 = Instance.new("TextLabel")
+local TextLabel_16 = Instance.new("TextLabel")
+local TextLabel_17 = Instance.new("TextLabel")
+local TextLabel_18 = Instance.new("TextLabel")
+local TextLabel_19 = Instance.new("TextLabel")
+local TextLabel_20 = Instance.new("TextLabel")
+local TextLabel_21 = Instance.new("TextLabel")
+local TextLabel_22 = Instance.new("TextLabel")
+local TextLabel_23 = Instance.new("TextLabel")
+local TextLabel_24 = Instance.new("TextLabel")
+local TextLabel_25 = Instance.new("TextLabel")
+local TextLabel_26 = Instance.new("TextLabel")
+local TextLabel_27 = Instance.new("TextLabel")
+local TextLabel_28 = Instance.new("TextLabel")
+local TextLabel_29 = Instance.new("TextLabel")
+local TextLabel_30 = Instance.new("TextLabel")
+local TextLabel_31 = Instance.new("TextLabel")
+local TextLabel_32 = Instance.new("TextLabel")
+local TextLabel_33 = Instance.new("TextLabel")
+local TextLabel_34 = Instance.new("TextLabel")
+local TextLabel_35 = Instance.new("TextLabel")
+local TextLabel_36 = Instance.new("TextLabel")
+local TextLabel_37 = Instance.new("TextLabel")
+local TextLabel_38 = Instance.new("TextLabel")
+local TextLabel_39 = Instance.new("TextLabel")
+local TextLabel_40 = Instance.new("TextLabel")
+local TextLabel_41 = Instance.new("TextLabel")
+local TextLabel_42 = Instance.new("TextLabel")
+local TextLabel_43 = Instance.new("TextLabel")
+local TextLabel_44 = Instance.new("TextLabel")
+local TextLabel_45 = Instance.new("TextLabel")
+local TextLabel_46 = Instance.new("TextLabel")
+local TextLabel_47 = Instance.new("TextLabel")
+local TextLabel_48 = Instance.new("TextLabel")
+local TextLabel_49 = Instance.new("TextLabel")
+local TextLabel_50 = Instance.new("TextLabel")
+local Close_2 = Instance.new("TextButton")
+local Mini_2 = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+Gradient.Name = "Gradient"
+Gradient.Parent = ScreenGui
+Gradient.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Gradient.BackgroundTransparency = 1.000
+Gradient.Position = UDim2.new(0.0724542439, 0, 0.564063787, 0)
+Gradient.Size = UDim2.new(0, 474, 0, 318)
+Gradient.Image = "rbxassetid://3570695787"
+Gradient.ImageColor3 = Color3.fromRGB(255, 0, 153)
+Gradient.ScaleType = Enum.ScaleType.Slice
+Gradient.SliceCenter = Rect.new(100, 100, 100, 100)
+Gradient.SliceScale = 0.120
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(55, 206, 223)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(91, 136, 229))}
+UIGradient.Parent = Gradient
+
+Pattern.Name = "Pattern"
+Pattern.Parent = Gradient
+Pattern.AnchorPoint = Vector2.new(0.5, 0.5)
+Pattern.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Pattern.BackgroundTransparency = 1.000
+Pattern.Position = UDim2.new(0.5, 0, 0.501346409, 0)
+Pattern.Size = UDim2.new(0, 474, 0, 317)
+Pattern.ZIndex = 2
+Pattern.Image = "rbxassetid://2151781758"
+Pattern.ImageColor3 = Color3.fromRGB(0, 0, 0)
+Pattern.ImageTransparency = 0.600
+Pattern.ScaleType = Enum.ScaleType.Tile
+Pattern.SliceCenter = Rect.new(0, 256, 0, 256)
+Pattern.TileSize = UDim2.new(0, 30, 0, 60)
+
+UICorner.Parent = Pattern
+
+Title.Name = "Title"
+Title.Parent = Gradient
+Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title.BackgroundTransparency = 1.000
+Title.Position = UDim2.new(0.341772139, 0, 0, 0)
+Title.Size = UDim2.new(0, 149, 0, 43)
+Title.ZIndex = 2
+Title.Font = Enum.Font.FredokaOne
+Title.Text = "ProjectDead"
+Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title.TextSize = 25.000
+
+TextLabel.Parent = Gradient
+TextLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.Position = UDim2.new(0, 0, 0.128930807, 0)
+TextLabel.Size = UDim2.new(0, 474, 0, 2)
+TextLabel.ZIndex = 3
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = ""
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextSize = 14.000
+
+account_circle.Name = "account_circle"
+account_circle.Parent = Gradient
+account_circle.BackgroundTransparency = 1.000
+account_circle.Position = UDim2.new(0, 0, 0.0283018891, 0)
+account_circle.Size = UDim2.new(0, 25, 0, 25)
+account_circle.ZIndex = 2
+account_circle.Image = "rbxassetid://3926307971"
+account_circle.ImageRectOffset = Vector2.new(124, 204)
+account_circle.ImageRectSize = Vector2.new(36, 36)
+
+TextLabel_2.Parent = Gradient
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0.0665399432, 0, 0.00628930796, 0)
+TextLabel_2.Size = UDim2.new(0, 52, 0, 39)
+TextLabel_2.ZIndex = 3
+TextLabel_2.Font = Enum.Font.FredokaOne
+TextLabel_2.Text = "f"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextSize = 16.000
+TextLabel_2.TextXAlignment = Enum.TextXAlignment.Left
+
+TextBox.Parent = Gradient
+TextBox.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextBox.Position = UDim2.new(0.0886075944, 0, 0.216981143, 0)
+TextBox.Size = UDim2.new(0, 390, 0, 190)
+TextBox.ZIndex = 3
+TextBox.Font = Enum.Font.FredokaOne
+TextBox.Text = "prefix is ."
+TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.TextSize = 16.000
+TextBox.TextXAlignment = Enum.TextXAlignment.Left
+TextBox.TextYAlignment = Enum.TextYAlignment.Top
+
+UICorner_2.Parent = TextBox
+
+Button.Name = "Button"
+Button.Parent = Gradient
+Button.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Button.BorderSizePixel = 0
+Button.Position = UDim2.new(0.0886075944, 0, 0.880503118, 0)
+Button.Size = UDim2.new(0, 114, 0, 29)
+Button.ZIndex = 3
+Button.Font = Enum.Font.FredokaOne
+Button.Text = "Execute"
+Button.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button.TextSize = 19.000
+Button.TextWrapped = true
+
+UICorner_3.Parent = Button
+
+Button1.Name = "Button1"
+Button1.Parent = Gradient
+Button1.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Button1.BorderSizePixel = 0
+Button1.Position = UDim2.new(0.379746854, 0, 0.880503118, 0)
+Button1.Size = UDim2.new(0, 114, 0, 29)
+Button1.ZIndex = 3
+Button1.Font = Enum.Font.FredokaOne
+Button1.Text = "Clear"
+Button1.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button1.TextSize = 19.000
+Button1.TextWrapped = true
+
+UICorner_4.Parent = Button1
+
+Button2.Name = "Button2"
+Button2.Parent = Gradient
+Button2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Button2.BorderSizePixel = 0
+Button2.Position = UDim2.new(0.670886099, 0, 0.880503118, 0)
+Button2.Size = UDim2.new(0, 114, 0, 29)
+Button2.ZIndex = 3
+Button2.Font = Enum.Font.FredokaOne
+Button2.Text = "Commands"
+Button2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button2.TextSize = 19.000
+Button2.TextWrapped = true
+
+UICorner_5.Parent = Button2
+
+Mini.Name = "Mini"
+Mini.Parent = Gradient
+Mini.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Mini.BackgroundTransparency = 1.000
+Mini.BorderSizePixel = 0
+Mini.Position = UDim2.new(0.910049975, 0, 0.0283018891, 0)
+Mini.Size = UDim2.new(0, 22, 0, 12)
+Mini.ZIndex = 3
+Mini.Font = Enum.Font.SourceSans
+Mini.Text = "-"
+Mini.TextColor3 = Color3.fromRGB(255, 255, 255)
+Mini.TextSize = 35.000
+
+Close.Name = "Close"
+Close.Parent = Gradient
+Close.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Close.BackgroundTransparency = 1.000
+Close.BorderSizePixel = 0
+Close.Position = UDim2.new(0.956239402, 0, 0.0220125802, 0)
+Close.Size = UDim2.new(0, 14, 0, 14)
+Close.ZIndex = 3
+Close.Font = Enum.Font.SourceSans
+Close.Text = "x"
+Close.TextColor3 = Color3.fromRGB(255, 255, 255)
+Close.TextSize = 25.000
+
+idkperm.Name = "idkperm"
+idkperm.Parent = ScreenGui
+idkperm.Active = true
+idkperm.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+idkperm.BorderSizePixel = 0
+idkperm.Position = UDim2.new(0.118804663, 0, 0.264563113, 0)
+idkperm.Size = UDim2.new(0, 330, 0, 246)
+idkperm.Visible = false
+idkperm.ScrollBarThickness = 0
+
+Title_2.Name = "Title"
+Title_2.Parent = idkperm
+Title_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_2.BackgroundTransparency = 1.000
+Title_2.Size = UDim2.new(0, 329, 0, 36)
+Title_2.Font = Enum.Font.FredokaOne
+Title_2.Text = "Commands"
+Title_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_2.TextSize = 18.000
+
+TextLabel_3.Parent = idkperm
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.Position = UDim2.new(0, 0, 0.0218305737, 0)
+TextLabel_3.Size = UDim2.new(0, 329, 0, 0)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = ""
+TextLabel_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.TextSize = 14.000
+
+TextLabel_4.Parent = idkperm
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.Position = UDim2.new(0, 0, 0.0424757265, 0)
+TextLabel_4.Size = UDim2.new(0, 329, 0, 36)
+TextLabel_4.Font = Enum.Font.FredokaOne
+TextLabel_4.Text = ".infammo"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextSize = 18.000
+
+TextLabel_5.Parent = idkperm
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.Position = UDim2.new(0, 0, 0.0557907, 0)
+TextLabel_5.Size = UDim2.new(0, 329, 0, 36)
+TextLabel_5.Font = Enum.Font.FredokaOne
+TextLabel_5.Text = ".zombieesp"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextSize = 18.000
+
+TextLabel_6.Parent = idkperm
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.Position = UDim2.new(0, 0, 0.0679611638, 0)
+TextLabel_6.Size = UDim2.new(0, 329, 0, 36)
+TextLabel_6.Font = Enum.Font.FredokaOne
+TextLabel_6.Text = ".opguns"
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.TextSize = 18.000
+
+TextLabel_7.Parent = idkperm
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.Position = UDim2.new(0, 0, 0.081310682, 0)
+TextLabel_7.Size = UDim2.new(0, 329, 0, 36)
+TextLabel_7.Font = Enum.Font.FredokaOne
+TextLabel_7.Text = ".bringheads"
+TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.TextSize = 18.000
+
+TextLabel_8.Parent = idkperm
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.BackgroundTransparency = 1.000
+TextLabel_8.Position = UDim2.new(0, 0, 0.0946256518, 0)
+TextLabel_8.Size = UDim2.new(0, 329, 0, 36)
+TextLabel_8.Font = Enum.Font.FredokaOne
+TextLabel_8.Text = ".Power"
+TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.TextSize = 18.000
+
+TextLabel_9.Parent = idkperm
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.BackgroundTransparency = 1.000
+TextLabel_9.Position = UDim2.new(0, 0, 0.106796116, 0)
+TextLabel_9.Size = UDim2.new(0, 329, 0, 36)
+TextLabel_9.Font = Enum.Font.FredokaOne
+TextLabel_9.Text = ".annoyplrs"
+TextLabel_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.TextSize = 18.000
+
+TextLabel_10.Parent = idkperm
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.BackgroundTransparency = 1.000
+TextLabel_10.Position = UDim2.new(0, 0, 0.0212378632, 0)
+TextLabel_10.Size = UDim2.new(0, 329, 0, 36)
+TextLabel_10.Font = Enum.Font.FredokaOne
+TextLabel_10.Text = "Main"
+TextLabel_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.TextSize = 18.000
+
+TextLabel_11.Parent = idkperm
+TextLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.Position = UDim2.new(0, 0, 0.0430684388, 0)
+TextLabel_11.Size = UDim2.new(0, 329, 0, 0)
+TextLabel_11.Font = Enum.Font.SourceSans
+TextLabel_11.Text = ""
+TextLabel_11.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_11.TextSize = 14.000
+
+TextLabel_12.Parent = idkperm
+TextLabel_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.Position = UDim2.new(0, 0, 0.155325726, 0)
+TextLabel_12.Size = UDim2.new(0, 329, 0, 0)
+TextLabel_12.Font = Enum.Font.SourceSans
+TextLabel_12.Text = ""
+TextLabel_12.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_12.TextSize = 14.000
+
+TextLabel_13.Parent = idkperm
+TextLabel_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_13.BackgroundTransparency = 1.000
+TextLabel_13.Position = UDim2.new(0, 0, 0.133495152, 0)
+TextLabel_13.Size = UDim2.new(0, 329, 0, 36)
+TextLabel_13.Font = Enum.Font.FredokaOne
+TextLabel_13.Text = "Teleports"
+TextLabel_13.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_13.TextSize = 18.000
+
+TextLabel_14.Parent = idkperm
+TextLabel_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_14.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_14.Position = UDim2.new(0, 0, 0.128626689, 0)
+TextLabel_14.Size = UDim2.new(0, 329, 0, 0)
+TextLabel_14.Font = Enum.Font.SourceSans
+TextLabel_14.Text = ""
+TextLabel_14.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_14.TextSize = 14.000
+
+TextLabel_15.Parent = idkperm
+TextLabel_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_15.BackgroundTransparency = 1.000
+TextLabel_15.Position = UDim2.new(0, 0, 0.219660193, 0)
+TextLabel_15.Size = UDim2.new(0, 329, 0, 36)
+TextLabel_15.Font = Enum.Font.FredokaOne
+TextLabel_15.Text = ".bathroom"
+TextLabel_15.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_15.TextSize = 18.000
+
+TextLabel_16.Parent = idkperm
+TextLabel_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_16.BackgroundTransparency = 1.000
+TextLabel_16.Position = UDim2.new(0, 0, 0.155339807, 0)
+TextLabel_16.Size = UDim2.new(0, 329, 0, 36)
+TextLabel_16.Font = Enum.Font.FredokaOne
+TextLabel_16.Text = ".backyard"
+TextLabel_16.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_16.TextSize = 18.000
+
+TextLabel_17.Parent = idkperm
+TextLabel_17.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_17.BackgroundTransparency = 1.000
+TextLabel_17.Position = UDim2.new(0, 0, 0.16865477, 0)
+TextLabel_17.Size = UDim2.new(0, 329, 0, 36)
+TextLabel_17.Font = Enum.Font.FredokaOne
+TextLabel_17.Text = ".barrierback1"
+TextLabel_17.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_17.TextSize = 18.000
+
+TextLabel_18.Parent = idkperm
+TextLabel_18.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_18.BackgroundTransparency = 1.000
+TextLabel_18.Position = UDim2.new(0, 0, 0.180825233, 0)
+TextLabel_18.Size = UDim2.new(0, 329, 0, 36)
+TextLabel_18.Font = Enum.Font.FredokaOne
+TextLabel_18.Text = ".barrierback2"
+TextLabel_18.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_18.TextSize = 18.000
+
+TextLabel_19.Parent = idkperm
+TextLabel_19.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_19.BackgroundTransparency = 1.000
+TextLabel_19.Position = UDim2.new(0, 0, 0.207489729, 0)
+TextLabel_19.Size = UDim2.new(0, 329, 0, 36)
+TextLabel_19.Font = Enum.Font.FredokaOne
+TextLabel_19.Text = ".barrierback4"
+TextLabel_19.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_19.TextSize = 18.000
+
+TextLabel_20.Parent = idkperm
+TextLabel_20.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_20.BackgroundTransparency = 1.000
+TextLabel_20.Position = UDim2.new(0, 0, 0.194174767, 0)
+TextLabel_20.Size = UDim2.new(0, 329, 0, 36)
+TextLabel_20.Font = Enum.Font.FredokaOne
+TextLabel_20.Text = ".barrierback3"
+TextLabel_20.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_20.TextSize = 18.000
+
+TextLabel_21.Parent = idkperm
+TextLabel_21.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_21.BackgroundTransparency = 1.000
+TextLabel_21.Position = UDim2.new(0, 0, 0.246324673, 0)
+TextLabel_21.Size = UDim2.new(0, 329, 0, 36)
+TextLabel_21.Font = Enum.Font.FredokaOne
+TextLabel_21.Text = ".centeryard"
+TextLabel_21.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_21.TextSize = 18.000
+
+TextLabel_22.Parent = idkperm
+TextLabel_22.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_22.BackgroundTransparency = 1.000
+TextLabel_22.Position = UDim2.new(0, 0, 0.285159618, 0)
+TextLabel_22.Size = UDim2.new(0, 329, 0, 36)
+TextLabel_22.Font = Enum.Font.FredokaOne
+TextLabel_22.Text = ".powerroom"
+TextLabel_22.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_22.TextSize = 18.000
+
+TextLabel_23.Parent = idkperm
+TextLabel_23.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_23.BackgroundTransparency = 1.000
+TextLabel_23.Position = UDim2.new(0, 0, 0.297330081, 0)
+TextLabel_23.Size = UDim2.new(0, 329, 0, 36)
+TextLabel_23.Font = Enum.Font.FredokaOne
+TextLabel_23.Text = ".spawn"
+TextLabel_23.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_23.TextSize = 18.000
+
+TextLabel_24.Parent = idkperm
+TextLabel_24.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_24.BackgroundTransparency = 1.000
+TextLabel_24.Position = UDim2.new(0, 0, 0.271844655, 0)
+TextLabel_24.Size = UDim2.new(0, 329, 0, 36)
+TextLabel_24.Font = Enum.Font.FredokaOne
+TextLabel_24.Text = ".lobby"
+TextLabel_24.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_24.TextSize = 18.000
+
+TextLabel_25.Parent = idkperm
+TextLabel_25.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_25.BackgroundTransparency = 1.000
+TextLabel_25.Position = UDim2.new(0, 0, 0.258495122, 0)
+TextLabel_25.Size = UDim2.new(0, 329, 0, 36)
+TextLabel_25.Font = Enum.Font.FredokaOne
+TextLabel_25.Text = ".library"
+TextLabel_25.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_25.TextSize = 18.000
+
+TextLabel_26.Parent = idkperm
+TextLabel_26.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_26.BackgroundTransparency = 1.000
+TextLabel_26.Position = UDim2.new(0, 0, 0.233009711, 0)
+TextLabel_26.Size = UDim2.new(0, 329, 0, 36)
+TextLabel_26.Font = Enum.Font.FredokaOne
+TextLabel_26.Text = ".buildingtop"
+TextLabel_26.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_26.TextSize = 18.000
+
+TextLabel_27.Parent = idkperm
+TextLabel_27.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_27.BackgroundTransparency = 1.000
+TextLabel_27.Position = UDim2.new(0, 0, 0.324029118, 0)
+TextLabel_27.Size = UDim2.new(0, 329, 0, 36)
+TextLabel_27.Font = Enum.Font.FredokaOne
+TextLabel_27.Text = "Teleports (new map)"
+TextLabel_27.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_27.TextSize = 18.000
+
+TextLabel_28.Parent = idkperm
+TextLabel_28.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_28.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_28.Position = UDim2.new(0, 0, 0.345859706, 0)
+TextLabel_28.Size = UDim2.new(0, 329, 0, 0)
+TextLabel_28.Font = Enum.Font.SourceSans
+TextLabel_28.Text = ""
+TextLabel_28.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_28.TextSize = 14.000
+
+TextLabel_29.Parent = idkperm
+TextLabel_29.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_29.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_29.Position = UDim2.new(0, 0, 0.31916064, 0)
+TextLabel_29.Size = UDim2.new(0, 329, 0, 0)
+TextLabel_29.Font = Enum.Font.SourceSans
+TextLabel_29.Text = ""
+TextLabel_29.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_29.TextSize = 14.000
+
+TextLabel_30.Parent = idkperm
+TextLabel_30.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_30.BackgroundTransparency = 1.000
+TextLabel_30.Position = UDim2.new(0, 0, 0.347694159, 0)
+TextLabel_30.Size = UDim2.new(0, 329, 0, 36)
+TextLabel_30.Font = Enum.Font.FredokaOne
+TextLabel_30.Text = ".spawnnew"
+TextLabel_30.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_30.TextSize = 18.000
+
+TextLabel_31.Parent = idkperm
+TextLabel_31.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_31.BackgroundTransparency = 1.000
+TextLabel_31.Position = UDim2.new(0, 0, 0.361009151, 0)
+TextLabel_31.Size = UDim2.new(0, 329, 0, 36)
+TextLabel_31.Font = Enum.Font.FredokaOne
+TextLabel_31.Text = ".lobbynew"
+TextLabel_31.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_31.TextSize = 18.000
+
+TextLabel_32.Parent = idkperm
+TextLabel_32.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_32.BackgroundTransparency = 1.000
+TextLabel_32.Position = UDim2.new(0, 0, 0.373179615, 0)
+TextLabel_32.Size = UDim2.new(0, 329, 0, 36)
+TextLabel_32.Font = Enum.Font.FredokaOne
+TextLabel_32.Text = ".lobbynew2"
+TextLabel_32.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_32.TextSize = 18.000
+
+TextLabel_33.Parent = idkperm
+TextLabel_33.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_33.BackgroundTransparency = 1.000
+TextLabel_33.Position = UDim2.new(0, 0, 0.39984408, 0)
+TextLabel_33.Size = UDim2.new(0, 329, 0, 36)
+TextLabel_33.Font = Enum.Font.FredokaOne
+TextLabel_33.Text = ".buildingarea"
+TextLabel_33.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_33.TextSize = 18.000
+
+TextLabel_34.Parent = idkperm
+TextLabel_34.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_34.BackgroundTransparency = 1.000
+TextLabel_34.Position = UDim2.new(0, 0, 0.386529118, 0)
+TextLabel_34.Size = UDim2.new(0, 329, 0, 36)
+TextLabel_34.Font = Enum.Font.FredokaOne
+TextLabel_34.Text = ".meeting"
+TextLabel_34.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_34.TextSize = 18.000
+
+TextLabel_35.Parent = idkperm
+TextLabel_35.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_35.BackgroundTransparency = 1.000
+TextLabel_35.Position = UDim2.new(0, 0, 0.412014544, 0)
+TextLabel_35.Size = UDim2.new(0, 329, 0, 36)
+TextLabel_35.Font = Enum.Font.FredokaOne
+TextLabel_35.Text = ".vault"
+TextLabel_35.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_35.TextSize = 18.000
+
+TextLabel_36.Parent = idkperm
+TextLabel_36.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_36.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_36.Position = UDim2.new(0, 0, 0.460544169, 0)
+TextLabel_36.Size = UDim2.new(0, 329, 0, 0)
+TextLabel_36.Font = Enum.Font.SourceSans
+TextLabel_36.Text = ""
+TextLabel_36.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_36.TextSize = 14.000
+
+TextLabel_37.Parent = idkperm
+TextLabel_37.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_37.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_37.Position = UDim2.new(0, 0, 0.433845103, 0)
+TextLabel_37.Size = UDim2.new(0, 329, 0, 0)
+TextLabel_37.Font = Enum.Font.SourceSans
+TextLabel_37.Text = ""
+TextLabel_37.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_37.TextSize = 14.000
+
+TextLabel_38.Parent = idkperm
+TextLabel_38.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_38.BackgroundTransparency = 1.000
+TextLabel_38.Position = UDim2.new(0, 0, 0.462378621, 0)
+TextLabel_38.Size = UDim2.new(0, 329, 0, 36)
+TextLabel_38.Font = Enum.Font.FredokaOne
+TextLabel_38.Text = ".doubletap"
+TextLabel_38.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_38.TextSize = 18.000
+
+TextLabel_39.Parent = idkperm
+TextLabel_39.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_39.BackgroundTransparency = 1.000
+TextLabel_39.Position = UDim2.new(0, 0, 0.475693613, 0)
+TextLabel_39.Size = UDim2.new(0, 329, 0, 36)
+TextLabel_39.Font = Enum.Font.FredokaOne
+TextLabel_39.Text = ".juggernog"
+TextLabel_39.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_39.TextSize = 18.000
+
+TextLabel_40.Parent = idkperm
+TextLabel_40.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_40.BackgroundTransparency = 1.000
+TextLabel_40.Position = UDim2.new(0, 0, 0.487864077, 0)
+TextLabel_40.Size = UDim2.new(0, 329, 0, 36)
+TextLabel_40.Font = Enum.Font.FredokaOne
+TextLabel_40.Text = ".mulekick"
+TextLabel_40.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_40.TextSize = 18.000
+
+TextLabel_41.Parent = idkperm
+TextLabel_41.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_41.BackgroundTransparency = 1.000
+TextLabel_41.Position = UDim2.new(0, 0, 0.50121361, 0)
+TextLabel_41.Size = UDim2.new(0, 329, 0, 36)
+TextLabel_41.Font = Enum.Font.FredokaOne
+TextLabel_41.Text = ".quickrevive"
+TextLabel_41.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_41.TextSize = 18.000
+
+TextLabel_42.Parent = idkperm
+TextLabel_42.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_42.BackgroundTransparency = 1.000
+TextLabel_42.Position = UDim2.new(0, 0, 0.514528573, 0)
+TextLabel_42.Size = UDim2.new(0, 329, 0, 36)
+TextLabel_42.Font = Enum.Font.FredokaOne
+TextLabel_42.Text = ".speedcola"
+TextLabel_42.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_42.TextSize = 18.000
+
+TextLabel_43.Parent = idkperm
+TextLabel_43.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_43.BackgroundTransparency = 1.000
+TextLabel_43.Position = UDim2.new(0, 0, 0.526699066, 0)
+TextLabel_43.Size = UDim2.new(0, 329, 0, 36)
+TextLabel_43.Font = Enum.Font.FredokaOne
+TextLabel_43.Text = ".pap"
+TextLabel_43.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_43.TextSize = 18.000
+
+TextLabel_44.Parent = idkperm
+TextLabel_44.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_44.BackgroundTransparency = 1.000
+TextLabel_44.Position = UDim2.new(0, 0, 0.43871358, 0)
+TextLabel_44.Size = UDim2.new(0, 329, 0, 36)
+TextLabel_44.Font = Enum.Font.FredokaOne
+TextLabel_44.Text = "Power-Ups"
+TextLabel_44.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_44.TextSize = 18.000
+
+TextLabel_45.Parent = idkperm
+TextLabel_45.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_45.BackgroundTransparency = 1.000
+TextLabel_45.Position = UDim2.new(0, 0, 0.6049757, 0)
+TextLabel_45.Size = UDim2.new(0, 329, 0, 36)
+TextLabel_45.Font = Enum.Font.FredokaOne
+TextLabel_45.Text = ".gotomb"
+TextLabel_45.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_45.TextSize = 18.000
+
+TextLabel_46.Parent = idkperm
+TextLabel_46.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_46.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_46.Position = UDim2.new(0, 0, 0.577655792, 0)
+TextLabel_46.Size = UDim2.new(0, 329, 0, 0)
+TextLabel_46.Font = Enum.Font.SourceSans
+TextLabel_46.Text = ""
+TextLabel_46.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_46.TextSize = 14.000
+
+TextLabel_47.Parent = idkperm
+TextLabel_47.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_47.BackgroundTransparency = 1.000
+TextLabel_47.Position = UDim2.new(0, 0, 0.555825233, 0)
+TextLabel_47.Size = UDim2.new(0, 329, 0, 36)
+TextLabel_47.Font = Enum.Font.FredokaOne
+TextLabel_47.Text = "Misc"
+TextLabel_47.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_47.TextSize = 18.000
+
+TextLabel_48.Parent = idkperm
+TextLabel_48.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_48.BackgroundTransparency = 1.000
+TextLabel_48.Position = UDim2.new(0, 0, 0.579490244, 0)
+TextLabel_48.Size = UDim2.new(0, 329, 0, 36)
+TextLabel_48.Font = Enum.Font.FredokaOne
+TextLabel_48.Text = ".walkspeed"
+TextLabel_48.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_48.TextSize = 18.000
+
+TextLabel_49.Parent = idkperm
+TextLabel_49.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_49.BackgroundTransparency = 1.000
+TextLabel_49.Position = UDim2.new(0, 0, 0.592805207, 0)
+TextLabel_49.Size = UDim2.new(0, 329, 0, 36)
+TextLabel_49.Font = Enum.Font.FredokaOne
+TextLabel_49.Text = ".goto"
+TextLabel_49.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_49.TextSize = 18.000
+
+TextLabel_50.Parent = idkperm
+TextLabel_50.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_50.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_50.Position = UDim2.new(0, 0, 0.550956726, 0)
+TextLabel_50.Size = UDim2.new(0, 329, 0, 0)
+TextLabel_50.Font = Enum.Font.SourceSans
+TextLabel_50.Text = ""
+TextLabel_50.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_50.TextSize = 14.000
+
+Close_2.Name = "Close"
+Close_2.Parent = idkperm
+Close_2.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Close_2.BackgroundTransparency = 1.000
+Close_2.BorderSizePixel = 0
+Close_2.Position = UDim2.new(0.956239402, 0, 0, 0)
+Close_2.Size = UDim2.new(0, 14, 0, 14)
+Close_2.Font = Enum.Font.SourceSans
+Close_2.Text = "x"
+Close_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Close_2.TextSize = 20.000
+
+Mini_2.Name = "Mini"
+Mini_2.Parent = idkperm
+Mini_2.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Mini_2.BackgroundTransparency = 1.000
+Mini_2.BorderSizePixel = 0
+Mini_2.Position = UDim2.new(0.910049915, 0, 0, 0)
+Mini_2.Size = UDim2.new(0, 15, 0, 16)
+Mini_2.Font = Enum.Font.SourceSans
+Mini_2.Text = "-"
+Mini_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Mini_2.TextSize = 20.000
+
+--okthings
+Gradient.Active = true
+idkperm.Active = true
+
+Button.MouseButton1Down:connect(function()
+	if TextBox.Text == ".infammo" then
+		for _,v in pairs(debug.getregistry()) do
+			if typeof(v) == "table" then
+				if v.Ammo then
+					v.Ammo = math.huge
+				end
+			end
+		end
+		ConsoleLabel.Text = "Set ammo to infinite"
+		ConsoleInfoLabel.Text = "This works for every weapon"
+	end
+end)
+
+Button.MouseButton1Down:connect(function()
+	if TextBox.Text == ".zombieesp" then
+		function CreateESPPart(BodyPart,color)
+			local ESPPartparent = BodyPart
+			local Box = Instance.new("BoxHandleAdornment")
+			Box.Size = BodyPart.Size + Vector3.new(0.1, 0.1, 0.1)
+			Box.Name = "ESPPart"
+			Box.Adornee = ESPPartparent
+			Box.Color3 = color
+			Box.AlwaysOnTop = true
+			Box.ZIndex = 5
+			Box.Transparency = 0.8
+			Box.Parent = BodyPart
+		end
+	end
+
+	local zombs = workspace.Baddies:getChildren()
+	for i=1,#zombs do
+		local bodypart = zombs[i]:getChildren()
+		for i=1,#bodypart do
+			if bodypart[i].ClassName == "Part" then
+				CreateESPPart(bodypart[i], Color3.fromRGB(0,255,0))
+			end
+		end
+	end
+
+	workspace.Baddies.ChildAdded:Connect(function(zomb)
+		wait(1)
+		local bodypart = zomb:getChildren()
+		for i=1,#bodypart do
+			if bodypart[i].ClassName == "Part" then
+				CreateESPPart(bodypart[i], Color3.fromRGB(0,255,0))
+			end
+		end
+	end)
+end)
+
+Button.MouseButton1Down:connect(function()
+	if TextBox.Text == ".opguns" then
+		local m = require(game:GetService("Players").LocalPlayer.Backpack:FindFirstChild("Weapon1"))
+		m.StoredAmmo = math.huge
+		m.MagSize = math.huge
+		m.Semi = false
+		m.Damage = {Max = 1500000, Min = 10000}
+		m.Spread = {Min = 0, Max = 0}
+		m.ViewKick = {
+			Pitch = {Min = 0, Max = 0},
+			Yaw = {Min = 0, Max = 0}
+		}
+		m.BulletPenetration = 1500
+		m.FireTime = 0
+
+		local n = require(game:GetService("Players").LocalPlayer.Backpack:FindFirstChild("Weapon2"))
+		n.StoredAmmo = math.huge
+		n.MagSize = math.huge
+		n.Semi = false
+		n.Damage = {Max = 1500000, Min = 10000}
+		n.Spread = {Min = 0, Max = 0}
+		n.ViewKick = {
+			Pitch = {Min = 0, Max = 0},
+			Yaw = {Min = 0, Max = 0}
+		}
+		n.BulletPenetration = 1500
+		n.FireTime = 0
+	end
+end)
+
+Button.MouseButton1Down:connect(function()
+	if TextBox.Text == ".bringheads" then
+		local pos = 5,0,5
+
+		local zomb = workspace.Baddies:GetChildren()
+		for i=1,#zomb do
+			zomb[i].HeadBox.Transparency = 0
+			zomb[i].HeadBox.Material = "Neon"
+			zomb[i].HeadBox.CanCollide = false
+			zomb[i].HeadBox.Anchored = true
+			zomb[i].HeadBox.Position = game.Players.LocalPlayer.Character.HumanoidRootPart.Position+Vector3.new(pos)
+		   end
+		end
+end)
+
+Button.MouseButton1Down:connect(function()
+	if TextBox.Text == ".barrierback1" then
+		game.Players.LocalPlayer.Character:MoveTo(Vector3.new(38.7996941, 20.2000065, 64.9929962))
+		ConsoleLabel.Text = "Teleported behind barrier 1"
+		ConsoleInfoLabel.Text = ""
+	end
+end)
+
+Button.MouseButton1Down:connect(function()
+	if TextBox.Text == ".barrierback2" then
+		game.Players.LocalPlayer.Character:MoveTo(Vector3.new(39.9715347, 20.200016, -32.2160835))
+		ConsoleLabel.Text = "Teleported behind barrier 2"
+		ConsoleInfoLabel.Text = ""
+	end
+end)
+
+Button.MouseButton1Down:connect(function()
+	if TextBox.Text == ".barrierback3" then
+		game.Players.LocalPlayer.Character:MoveTo(Vector3.new(75.7908325, 3.20002508, -29.1730213))
+		ConsoleLabel.Text = "Teleported behind barrier 3"
+		ConsoleInfoLabel.Text = ""
+	end
+end)
+
+Button.MouseButton1Down:connect(function()
+	if TextBox.Text == ".barrierback4" then
+		game.Players.LocalPlayer.Character:MoveTo(Vector3.new(74.7251892, 20.9555206, 103.646507))
+		ConsoleLabel.Text = "Teleported behind barrier 4"
+		ConsoleInfoLabel.Text = ""
+	end
+end)
+
+Button.MouseButton1Down:connect(function()
+	if TextBox.Text == ".library" then
+		game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-66.9610825, 20.1990089, 2.16642976))
+		ConsoleLabel.Text = "Teleported to library"
+		ConsoleInfoLabel.Text = ""
+	end
+end)
+
+Button.MouseButton1Down:connect(function()
+	if TextBox.Text == ".bathroom" then
+		game.Players.LocalPlayer.Character:MoveTo(Vector3.new(63.4641228, 20.2000504, 78.6364136))
+		ConsoleLabel.Text = "Teleported to Bathroom"
+		ConsoleInfoLabel.Text = ""
+	end
+end)
+
+Button.MouseButton1Down:connect(function()
+	if TextBox.Text == ".lobby" then
+		game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-10.6820145, -494.5, -2.53165269))
+		ConsoleLabel.Text = "Teleported to Lobby"
+		ConsoleInfoLabel.Text = ""
+	end
+end)
+
+Button.MouseButton1Down:connect(function()
+	if TextBox.Text == ".backyard" then
+		game.Players.LocalPlayer.Character:MoveTo(Vector3.new(8.4164629, 3.20000005, -115.536255))
+		ConsoleLabel.Text = "Teleported to the back yard"
+		ConsoleInfoLabel.Text = ""
+	end
+end)
+
+Button.MouseButton1Down:connect(function()
+	if TextBox.Text == ".spawn" then
+		game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-16.4724731, 3.20000005, -18.6810131))
+		ConsoleLabel.Text = "Teleported to spawn"
+		ConsoleInfoLabel.Text = ""
+	end
+end)
+
+Button.MouseButton1Down:connect(function()
+	if TextBox.Text == ".powerroom" then
+		game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-3.92677093, 20.1999989, 91.4792633))
+		ConsoleLabel.Text = "Teleported to the power room"
+		ConsoleInfoLabel.Text = ""
+	end
+end)
+
+Button.MouseButton1Down:connect(function()
+	if TextBox.Text == ".centeryard" then
+		game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-0.663911641, 3.79999971, 41.9799118))
+		ConsoleLabel.Text = "Teleported to the center yard"
+		ConsoleInfoLabel.Text = ""
+	end
+end)
+
+Button.MouseButton1Down:connect(function()
+	if TextBox.Text == ".buildingtop" then
+		game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-3.20340729, 47.1415977, 4.63647652))
+		ConsoleLabel.Text = "Teleported to the building top"
+		ConsoleInfoLabel.Text = ""
+	end
+end)
+
+Button.MouseButton1Down:connect(function()
+	if TextBox.Text == ".annoyplrs" then
+		while true do
+			wait()
+			local remote = game["Workspace"]["Name"]["ServerScript"]["WeaponSound"]
+			local args = {
+				[1] = "Fire"
+			}
+			remote:FireServer(unpack(args))
+		end
+		ConsoleLabel.Text = "Enabled annoy players"
+		ConsoleInfoLabel.Text = "You can't hear this, but others can"
+	end
+end)
+
+Button.MouseButton1Down:connect(function()
+	if TextBox.Text == ".power" then
+		workspace.Interact.PowerSwitch.Activate:FireServer(workspace[LocalNameBox.Text].Interact.OnKeyUp, 14)
+		ConsoleLabel.Text = "Turned on power"
+		ConsoleInfoLabel.Text = "You can now use power-ups"
+	end
+end)
+
+Button.MouseButton1Down:connect(function()
+	if TextBox.Text == ".juggernog" then
+		local Jugger = game.Workspace.Interact.Juggernog['Activate']	
+		local JugArguments = {
+
+		}	
+		Jugger:FireServer(unpack(JugArguments))
+		ConsoleLabel.Text = "Bought Juggernog"
+		ConsoleInfoLabel.Text = ""
+	end
+end)
+
+Button.MouseButton1Down:connect(function()
+	if TextBox.Text == ".quickrevive" then
+		local Quickie = game.Workspace.Interact:FindFirstChild 'Quick Revive'['Activate']
+		local QuArguments = {
+
+		}
+		Quickie:FireServer(unpack(QuArguments))
+		ConsoleLabel.Text = "Bought Quick Revive"
+		ConsoleInfoLabel.Text = ""
+	end
+end)
+
+Button.MouseButton1Down:connect(function()
+	if TextBox.Text == ".doubletap" then
+		local Dtap = game.Workspace.Interact:FindFirstChild 'Double Tap Root Beer'['Activate']
+		local DtArguments = {
+
+		}
+		Dtap:FireServer(unpack(DtArguments))
+		ConsoleLabel.Text = "Bought Double Tap Root Beer"
+		ConsoleInfoLabel.Text = ""
+	end
+end)
+
+Button.MouseButton1Down:connect(function()
+	if TextBox.Text == ".speedcola" then
+		local Speedc = game.Workspace.Interact:FindFirstChild 'Speed Cola'['Activate']
+		local SpArguments = {
+
+		}
+		Speedc:FireServer(unpack(SpArguments))
+		ConsoleLabel.Text = "Bought Speed Cola"
+		ConsoleInfoLabel.Text = ""
+	end
+end)
+
+Button.MouseButton1Down:connect(function()
+	if TextBox.Text == ".mulekick" then
+		local Mulek = game.Workspace.Interact:FindFirstChild 'Mule Kick'['Activate']
+		local MuArguments = {
+
+		}
+		Mulek:FireServer(unpack(MuArguments))
+		ConsoleLabel.Text = "Bought Mule Kick"
+		ConsoleInfoLabel.Text = ""
+	end
+end)
+
+Button.MouseButton1Down:connect(function()
+	if TextBox.Text == ".buildingarea" then
+		game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-2.12, -10.499, -386.54))
+		ConsoleLabel.Text = "Teleported to the building area"
+		ConsoleInfoLabel.Text = ""
+	end
+end)
+
+Button.MouseButton1Down:connect(function()
+	if TextBox.Text == ".lobbynew" then
+		game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-12.4801102, 3.5, 42.7415619))
+		ConsoleLabel.Text = "Teleported to the the new lobby"
+		ConsoleInfoLabel.Text = ""
+	end
+end)
+
+Button.MouseButton1Down:connect(function()
+	if TextBox.Text == ".lobbynew2" then
+		game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-2.6, 1.899, -155.115))
+		ConsoleLabel.Text = "Teleported to the the new lobby part 2"
+		ConsoleInfoLabel.Text = ""
+	end
+end)
+
+Button.MouseButton1Down:connect(function()
+	if TextBox.Text == ".meeting" then
+		game.Players.LocalPlayer.Character:MoveTo(Vector3.new(12.86, 17.499, -21.05))
+		ConsoleLabel.Text = "Teleported to the meeting area"
+		ConsoleInfoLabel.Text = ""
+	end
+end)
+
+Button.MouseButton1Down:connect(function()
+	if TextBox.Text == ".spawnnew" then
+		game.Players.LocalPlayer.Character:MoveTo(Vector3.new(8.6, 3.5, 19))
+		ConsoleLabel.Text = "Teleported to new spawn"
+		ConsoleInfoLabel.Text = ""
+	end
+end)
+
+Button.MouseButton1Down:connect(function()
+	if TextBox.Text == ".vault" then
+		game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-0.77, -10.499, -301.517))
+		ConsoleLabel.Text = "Teleported to vault walkthrough area"
+		ConsoleInfoLabel.Text = ""
+	end
+end)
+
+Button.MouseButton1Down:connect(function()
+	if TextBox.Text == ".walkspeed" then
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = (TextBox.Text)
+		ConsoleLabel.Text = "Changed walk speed"
+		ConsoleInfoLabel.Text = ""
+	end
+end)
+
+Button.MouseButton1Down:connect(function()
+		getplr = function(plxr)
+			for i, v in pairs(game.Players:GetPlayers()) do
+				if string.find(v.Name, plxr) then
+					return v
+				elseif v.Name:sub(1, plxr:len()):lower()== plxr:lower() then
+					return v
+				end
+			end
+		end
+		local plr = getplr(TextBox.Text)
+		game.Players.LocalPlayer.Character:MoveTo(plr.Character.Torso.Position)
+		ConsoleLabel.Text = "Teleported to player"
+		ConsoleInfoLabel.Text = ""
+	end)
+
+Button.MouseButton1Down:connect(function()
+	if TextBox.Text == ".pap" then
+		local pap = game.Workspace.Interact:FindFirstChild 'Pack-a-Punch'['Activate']
+		local MuArguments = {
+
+		}
+		pap:FireServer(unpack(MuArguments))
+		ConsoleLabel.Text = "Bought Pack a Punch"
+		ConsoleInfoLabel.Text = ""
+	end
+end)
+
+Button.MouseButton1Down:connect(function()
+	if TextBox.Text == ".gotomb" then
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = Workspace.Interact.MysteryBox.Base.Part.CFrame
+	end
+end)
+
+
+-- Scripts:
+
+local function SDRN_fake_script() -- TextLabel_2.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel_2)
+
+	script.Parent.Text = game.Players.LocalPlayer.Name
+	
+end
+coroutine.wrap(SDRN_fake_script)()
+local function BYZGSQ_fake_script() -- Button.LocalScript 
+	local script = Instance.new('LocalScript', Button)
+
+	script.Parent.MouseButton1Click:connect(function()
+		if script.Parent.Parent.TextBox.Text == ".print" then
+			print("maybe")
+		end
+	end)
+	
+end
+coroutine.wrap(BYZGSQ_fake_script)()
+local function ECUAV_fake_script() -- Button1.LocalScript 
+	local script = Instance.new('LocalScript', Button1)
+
+	script.Parent.MouseButton1Click:connect(function()
+			script.Parent.Parent.TextBox.Text = ""
+		end)
+	
+end
+coroutine.wrap(ECUAV_fake_script)()
+local function SQGBZBK_fake_script() -- Button2.LocalScript 
+	local script = Instance.new('LocalScript', Button2)
+
+	script.Parent.MouseButton1Click:connect(function()
+			script.Parent.Parent.Parent.idkperm.Visible = true
+		end)
+	
+end
+coroutine.wrap(SQGBZBK_fake_script)()
+local function KEFVS_fake_script() -- Mini.LocalScript 
+	local script = Instance.new('LocalScript', Mini)
+
+	local Mini = script.Parent
+	local CloseDis = true
+	local MiniDis = true
+	
+	function Tween(Object, Time, Customization)
+		game:GetService("TweenService"):Create(Object, TweenInfo.new(Time), Customization):Play()
+	end
+	
+	-- Tweening.
+	
+	Mini.MouseButton1Click:Connect(function()
+		if MiniDis == true then do
+				for i,v in pairs(script.Parent.Parent:GetChildren()) do
+					if v:IsA("GuiObject") and v.Name ~= "Mini" and v.Name ~= "Close" then
+						v.Visible = false
+					end
+				end
+				wait(.25)
+				Tween(script.Parent.Parent, .35, {Size = UDim2.new(0, 474, 0, 27)})
+				for i,v in pairs(script.Parent.Parent.Title:GetChildren()) do
+					v.Visible = false
+				end
+				script.Parent.Text = "+"
+				wait(.25)
+				MiniDis = false
+			end
+		else
+			wait(.25)
+			Tween(script.Parent.Parent, .35, {Size = UDim2.new(0, 474,0, 318)})
+			for i,v in pairs(script.Parent.Parent.Title:GetChildren()) do
+				v.Visible = true
+			end
+			wait(.25)
+			for i,v in pairs(script.Parent.Parent:GetChildren()) do
+				if v:IsA("GuiObject") then
+					v.Visible = true
+				end
+			end
+			script.Parent.Text = "-"
+			wait(.35)
+			MiniDis = true
+		end
+	end)
+	
+	Mini.MouseEnter:Connect(function()
+		game:GetService("TweenService"):Create(Mini, TweenInfo.new(0.2), {
+			['BackgroundColor3'] = Color3.fromRGB(30, 30, 30);
+		}):Play();
+	end)
+	
+	Mini.MouseLeave:Connect(function()
+		game:GetService("TweenService"):Create(Mini, TweenInfo.new(0.2), {
+			['BackgroundColor3'] = Color3.fromRGB(25, 25, 25);
+		}):Play();
+	end)
+end
+coroutine.wrap(KEFVS_fake_script)()
+local function YJMLRRT_fake_script() -- Close.LocalScript 
+	local script = Instance.new('LocalScript', Close)
+
+	local Button = script.Parent
+	
+	Button.MouseEnter:Connect(function()
+				game:GetService("TweenService"):Create(Button, TweenInfo.new(0.2), {
+			['TextColor3'] = Color3.fromRGB(255,0,0);
+		}):Play();
+	end)
+	
+	Button.MouseLeave:Connect(function()
+			game:GetService("TweenService"):Create(Button, TweenInfo.new(0.2), {
+			['TextColor3'] = Color3.fromRGB(255,255,255);
+		}):Play();
+	end) 
+	
+	Button.MouseButton1Click:Connect(function()
+		script.Parent.Parent:TweenPosition(UDim2.new(-1, 0,0.425, 0), "In", "Quint", 2, true)
+	end)
+end
+coroutine.wrap(YJMLRRT_fake_script)()
+local function SDLTYN_fake_script() -- Gradient.Dragify 
+	local script = Instance.new('LocalScript', Gradient)
+
+	local UIS = game:GetService("UserInputService")
+	function dragify(Frame)
+	    dragToggle = nil
+	    local dragSpeed = 0
+	    dragInput = nil
+	    dragStart = nil
+	    local dragPos = nil
+	    function updateInput(input)
+	        local Delta = input.Position - dragStart
+	        local Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + Delta.X, startPos.Y.Scale, startPos.Y.Offset + Delta.Y)
+	        game:GetService("TweenService"):Create(Frame, TweenInfo.new(0.25), {Position = Position}):Play()
+	    end
+	    Frame.InputBegan:Connect(function(input)
+	        if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) and UIS:GetFocusedTextBox() == nil then
+	            dragToggle = true
+	            dragStart = input.Position
+	            startPos = Frame.Position
+	            input.Changed:Connect(function()
+	                if input.UserInputState == Enum.UserInputState.End then
+	                    dragToggle = false
+	                end
+	            end)
+	        end
+	    end)
+	    Frame.InputChanged:Connect(function(input)
+	        if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+	            dragInput = input
+	        end
+	    end)
+	    game:GetService("UserInputService").InputChanged:Connect(function(input)
+	        if input == dragInput and dragToggle then
+	            updateInput(input)
+	        end
+	    end)
+	end
+	
+	dragify(script.Parent)
+end
+coroutine.wrap(SDLTYN_fake_script)()
+local function JEIMQW_fake_script() -- idkperm.Dragify 
+	local script = Instance.new('LocalScript', idkperm)
+
+	local UIS = game:GetService("UserInputService")
+	function dragify(Frame)
+	    dragToggle = nil
+	    local dragSpeed = 0
+	    dragInput = nil
+	    dragStart = nil
+	    local dragPos = nil
+	    function updateInput(input)
+	        local Delta = input.Position - dragStart
+	        local Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + Delta.X, startPos.Y.Scale, startPos.Y.Offset + Delta.Y)
+	        game:GetService("TweenService"):Create(Frame, TweenInfo.new(0.25), {Position = Position}):Play()
+	    end
+	    Frame.InputBegan:Connect(function(input)
+	        if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) and UIS:GetFocusedTextBox() == nil then
+	            dragToggle = true
+	            dragStart = input.Position
+	            startPos = Frame.Position
+	            input.Changed:Connect(function()
+	                if input.UserInputState == Enum.UserInputState.End then
+	                    dragToggle = false
+	                end
+	            end)
+	        end
+	    end)
+	    Frame.InputChanged:Connect(function(input)
+	        if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+	            dragInput = input
+	        end
+	    end)
+	    game:GetService("UserInputService").InputChanged:Connect(function(input)
+	        if input == dragInput and dragToggle then
+	            updateInput(input)
+	        end
+	    end)
+	end
+	
+	dragify(script.Parent)
+end
+coroutine.wrap(JEIMQW_fake_script)()
+local function EDRVUL_fake_script() -- Close_2.LocalScript 
+	local script = Instance.new('LocalScript', Close_2)
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Parent.Parent.idkperm.Visible = false
+	end)
+	
+end
+coroutine.wrap(EDRVUL_fake_script)()
+local function VJUQI_fake_script() -- Mini_2.LocalScript 
+	local script = Instance.new('LocalScript', Mini_2)
+
+	local Mini = script.Parent
+	local CloseDis = true
+	local MiniDis = true
+	
+	function Tween(Object, Time, Customization)
+		game:GetService("TweenService"):Create(Object, TweenInfo.new(Time), Customization):Play()
+	end
+	
+	-- Tweening.
+	
+	Mini.MouseButton1Click:Connect(function()
+		if MiniDis == true then do
+				for i,v in pairs(script.Parent.Parent:GetChildren()) do
+					if v:IsA("GuiObject") and v.Name ~= "Mini" and v.Name ~= "Close" then
+						v.Visible = false
+					end
+				end
+				wait(.25)
+				Tween(script.Parent.Parent, .35, {Size = UDim2.new(0, 329, 0, 19)})
+				for i,v in pairs(script.Parent.Parent.Title:GetChildren()) do
+					v.Visible = false
+				end
+				script.Parent.Text = "+"
+				wait(.25)
+				MiniDis = false
+			end
+		else
+			wait(.25)
+			Tween(script.Parent.Parent, .35, {Size = UDim2.new(0, 329,0, 246)})
+			for i,v in pairs(script.Parent.Parent.Title:GetChildren()) do
+				v.Visible = true
+			end
+			wait(.25)
+			for i,v in pairs(script.Parent.Parent:GetChildren()) do
+				if v:IsA("GuiObject") then
+					v.Visible = true
+				end
+			end
+			script.Parent.Text = "-"
+			wait(.35)
+			MiniDis = true
+		end
+	end)
+	
+	Mini.MouseEnter:Connect(function()
+		game:GetService("TweenService"):Create(Mini, TweenInfo.new(0.2), {
+			['BackgroundColor3'] = Color3.fromRGB(30, 30, 30);
+		}):Play();
+	end)
+	
+	Mini.MouseLeave:Connect(function()
+		game:GetService("TweenService"):Create(Mini, TweenInfo.new(0.2), {
+			['BackgroundColor3'] = Color3.fromRGB(25, 25, 25);
+		}):Play();
+	end)
+end
+coroutine.wrap(VJUQI_fake_script)()
