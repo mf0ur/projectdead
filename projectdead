@@ -657,8 +657,6 @@ infammo.MouseButton1Click:Connect(function()
 			end
 		end
 	end
-	ConsoleLabel.Text = "Set ammo to infinite"
-	ConsoleInfoLabel.Text = "This works for every weapon"
 end)
 
 Zombieesp.MouseButton1Down:connect(function()
@@ -739,74 +737,50 @@ end)
 
 BarrierBack1.MouseButton1Click:Connect(function()
 	game.Players.LocalPlayer.Character:MoveTo(Vector3.new(38.7996941, 20.2000065, 64.9929962))
-	ConsoleLabel.Text = "Teleported behind barrier 1"
-	ConsoleInfoLabel.Text = ""
 end)
 
 BarrierBack2.MouseButton1Click:Connect(function()
 	game.Players.LocalPlayer.Character:MoveTo(Vector3.new(39.9715347, 20.200016, -32.2160835))
-	ConsoleLabel.Text = "Teleported behind barrier 2"
-	ConsoleInfoLabel.Text = ""
 end)
 
 BarrierBack3.MouseButton1Click:Connect(function()
 	game.Players.LocalPlayer.Character:MoveTo(Vector3.new(75.7908325, 3.20002508, -29.1730213))
-	ConsoleLabel.Text = "Teleported behind barrier 3"
-	ConsoleInfoLabel.Text = ""
 end)
 
 BarrierBack4.MouseButton1Click:Connect(function()
 	game.Players.LocalPlayer.Character:MoveTo(Vector3.new(74.7251892, 20.9555206, 103.646507))
-	ConsoleLabel.Text = "Teleported behind barrier 4"
-	ConsoleInfoLabel.Text = ""
 end)
 
 Library.MouseButton1Click:Connect(function()
 	game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-66.9610825, 20.1990089, 2.16642976))
-	ConsoleLabel.Text = "Teleported to library"
-	ConsoleInfoLabel.Text = ""
 end)
 
 Bathroom.MouseButton1Click:Connect(function()
 	game.Players.LocalPlayer.Character:MoveTo(Vector3.new(63.4641228, 20.2000504, 78.6364136))
-	ConsoleLabel.Text = "Teleported to Bathroom"
-	ConsoleInfoLabel.Text = ""
 end)
 
 Lobby.MouseButton1Click:Connect(function()
 	game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-10.6820145, -494.5, -2.53165269))
-	ConsoleLabel.Text = "Teleported to Lobby"
-	ConsoleInfoLabel.Text = ""
 end)
 
 BackYard.MouseButton1Click:Connect(function()
 	game.Players.LocalPlayer.Character:MoveTo(Vector3.new(8.4164629, 3.20000005, -115.536255))
-	ConsoleLabel.Text = "Teleported to the back yard"
-	ConsoleInfoLabel.Text = ""
 end)
 
 Spawn.MouseButton1Click:Connect(function()
 	game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-16.4724731, 3.20000005, -18.6810131))
-	ConsoleLabel.Text = "Teleported to spawn"
-	ConsoleInfoLabel.Text = ""
 end)
 
 PowerRoom.MouseButton1Click:Connect(function()
 	game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-3.92677093, 20.1999989, 91.4792633))
-	ConsoleLabel.Text = "Teleported to the power room"
-	ConsoleInfoLabel.Text = ""
 end)
 
 CenterYard.MouseButton1Click:Connect(function()
 	game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-0.663911641, 3.79999971, 41.9799118))
-	ConsoleLabel.Text = "Teleported to the center yard"
-	ConsoleInfoLabel.Text = ""
 end)
 
 BuildingTop.MouseButton1Click:Connect(function()
 	game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-3.20340729, 47.1415977, 4.63647652))
-	ConsoleLabel.Text = "Teleported to the building top"
-	ConsoleInfoLabel.Text = ""
 end)
 
 AnnoyPlayers.MouseButton1Click:Connect(function()
@@ -818,14 +792,10 @@ AnnoyPlayers.MouseButton1Click:Connect(function()
 		}
 		remote:FireServer(unpack(args))
 	end
-	ConsoleLabel.Text = "Enabled annoy players"
-	ConsoleInfoLabel.Text = "You can't hear this, but others can"
 end)
 
 Power.MouseButton1Click:Connect(function()
 	workspace.Interact.PowerSwitch.Activate:FireServer(workspace[LocalNameBox.Text].Interact.OnKeyUp, 14)
-	ConsoleLabel.Text = "Turned on power"
-	ConsoleInfoLabel.Text = "You can now use power-ups"
 end)
 
 Juggernog.MouseButton1Click:Connect(function()
@@ -834,8 +804,6 @@ Juggernog.MouseButton1Click:Connect(function()
 
 	}	
 	Jugger:FireServer(unpack(JugArguments))
-	ConsoleLabel.Text = "Bought Juggernog"
-	ConsoleInfoLabel.Text = ""
 end)
 
 QuickRevive.MouseButton1Click:Connect(function()
@@ -844,8 +812,6 @@ QuickRevive.MouseButton1Click:Connect(function()
 
 	}
 	Quickie:FireServer(unpack(QuArguments))
-	ConsoleLabel.Text = "Bought Quick Revive"
-	ConsoleInfoLabel.Text = ""
 end)
 
 DoubleTap.MouseButton1Click:Connect(function()
@@ -854,8 +820,6 @@ DoubleTap.MouseButton1Click:Connect(function()
 
 	}
 	Dtap:FireServer(unpack(DtArguments))
-	ConsoleLabel.Text = "Bought Double Tap Root Beer"
-	ConsoleInfoLabel.Text = ""
 end)
 
 SpeedCola.MouseButton1Click:Connect(function()
@@ -864,8 +828,6 @@ SpeedCola.MouseButton1Click:Connect(function()
 
 	}
 	Speedc:FireServer(unpack(SpArguments))
-	ConsoleLabel.Text = "Bought Speed Cola"
-	ConsoleInfoLabel.Text = ""
 end)
 
 MuleKick.MouseButton1Click:Connect(function()
@@ -874,14 +836,10 @@ MuleKick.MouseButton1Click:Connect(function()
 
 	}
 	Mulek:FireServer(unpack(MuArguments))
-	ConsoleLabel.Text = "Bought Mule Kick"
-	ConsoleInfoLabel.Text = ""
 end)
 
 BuildingArea.MouseButton1Click:Connect(function()
 	game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-2.12, -10.499, -386.54))
-	ConsoleLabel.Text = "Teleported to the building area"
-	ConsoleInfoLabel.Text = ""
 end)
 
 LobbyNew.MouseButton1Click:Connect(function()
@@ -892,32 +850,22 @@ end)
 
 LobbyNew2.MouseButton1Click:Connect(function()
 	game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-2.6, 1.899, -155.115))
-	ConsoleLabel.Text = "Teleported to the the new lobby part 2"
-	ConsoleInfoLabel.Text = ""
 end)
 
 Meeting.MouseButton1Click:Connect(function()
 	game.Players.LocalPlayer.Character:MoveTo(Vector3.new(12.86, 17.499, -21.05))
-	ConsoleLabel.Text = "Teleported to the meeting area"
-	ConsoleInfoLabel.Text = ""
 end)
 
 SpawnNew.MouseButton1Click:Connect(function()
 	game.Players.LocalPlayer.Character:MoveTo(Vector3.new(8.6, 3.5, 19))
-	ConsoleLabel.Text = "Teleported to new spawn"
-	ConsoleInfoLabel.Text = ""
 end)
 
 Vault.MouseButton1Click:Connect(function()
 	game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-0.77, -10.499, -301.517))
-	ConsoleLabel.Text = "Teleported to vault walkthrough area"
-	ConsoleInfoLabel.Text = ""
 end)
 
 Walkspeed.MouseButton1Click:Connect(function()
 	game.Workspace[InputBox.Text].Humanoid.WalkSpeed = (InputBox.Text)
-	ConsoleLabel.Text = "Changed walk speed"
-	ConsoleInfoLabel.Text = ""
 end)
 
 GotoPlayer.MouseButton1Click:Connect(function()
@@ -932,8 +880,6 @@ GotoPlayer.MouseButton1Click:Connect(function()
 	end
 	local plr = getplr(InputBox.Text)
 	game.Players.LocalPlayer.Character:MoveTo(plr.Character.Torso.Position)
-	ConsoleLabel.Text = "Teleported to player"
-	ConsoleInfoLabel.Text = ""
 end)
 
 pap.MouseButton1Click:Connect(function()
@@ -942,8 +888,6 @@ pap.MouseButton1Click:Connect(function()
 
 	}
 	pap:FireServer(unpack(MuArguments))
-	ConsoleLabel.Text = "Bought Pack a Punch"
-	ConsoleInfoLabel.Text = ""
 end)
 
 GotoMB.MouseButton1Click:Connect(function()
