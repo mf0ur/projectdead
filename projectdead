@@ -844,8 +844,6 @@ end)
 
 LobbyNew.MouseButton1Click:Connect(function()
 	game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-12.4801102, 3.5, 42.7415619))
-	ConsoleLabel.Text = "Teleported to the the new lobby"
-	ConsoleInfoLabel.Text = ""
 end)
 
 LobbyNew2.MouseButton1Click:Connect(function()
